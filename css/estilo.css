@@ -547,14 +547,20 @@ footer ul li a#github {
     font-size: 27px;
   }
 
-  .servicos-2 {
+  .servicos1 {
+    color: rgb(53, 21, 168);
     font-size: 16px;
-    margin-top: -15px;
   }
 
-  .servicos-3 {
-    color: #8804b0;
-    font-size: 27px;
+  .servicos2 {
+    color: rgb(53, 21, 168);
+    font-size: 22px;
+  }
+
+  .servicos-2 {
+    color: rgb(53, 21, 168);
+    font-size: 16px;
+    margin-top: -15px;
   }
 
   .funcionamos {
@@ -934,7 +940,18 @@ footer ul li a#github {
     font-size: 25px;
   }
 
+  .servicos1 {
+    color: rgb(53, 21, 168);
+    font-size: 16px;
+  }
+
+  .servicos2 {
+    color: rgb(53, 21, 168);
+    font-size: 20px;
+  }
+
   .servicos-2 {
+    color: rgb(53, 21, 168);
     font-size: 16px;
     margin-top: -15px;
   }
@@ -1317,7 +1334,18 @@ footer ul li a#github {
     font-size: 25px;
   }
 
+  .servicos1 {
+    color: rgb(53, 21, 168);
+    font-size: 16px;
+  }
+
+  .servicos2 {
+    color: rgb(53, 21, 168);
+    font-size: 20px;
+  }
+
   .servicos-2 {
+    color: rgb(53, 21, 168);
     font-size: 16px;
     margin-top: -15px;
   }
@@ -1702,7 +1730,18 @@ footer ul li a#github {
     font-size: 25px;
   }
 
+  .servicos1 {
+    color: rgb(53, 21, 168);
+    font-size: 16px;
+  }
+
+  .servicos2 {
+    color: rgb(53, 21, 168);
+    font-size: 20px;
+  }
+
   .servicos-2 {
+    color: rgb(53, 21, 168);
     font-size: 16px;
     margin-top: -15px;
   }
@@ -2136,7 +2175,18 @@ footer ul li a#github {
     font-size: 28px;
   }
 
+  .servicos1 {
+    color: rgb(53, 21, 168);
+    font-size: 18px;
+  }
+
+  .servicos2 {
+    color: rgb(53, 21, 168);
+    font-size: 22px;
+  }
+
   .servicos-2 {
+    color: rgb(53, 21, 168);
     font-size: 16px;
     margin-top: -15px;
   }
@@ -2242,9 +2292,9 @@ footer ul li a#github {
   }
 
   #ajuste-tamanho-lg-2 {
-    width: 601px;
+    width: 400px;
     margin-top: 55px;
-    margin-left: -100px;
+    margin-left: -50px;
   }
 
   /***************** Capa 3 **************************/
@@ -2589,7 +2639,18 @@ footer ul li a#github {
     font-size: 27px;
   }
 
+  .servicos1 {
+    color: rgb(53, 21, 168);
+    font-size: 18px;
+  }
+
+  .servicos2 {
+    color: rgb(53, 21, 168);
+    font-size: 22px;
+  }
+
   .servicos-2 {
+    color: rgb(53, 21, 168);
     font-size: 16px;
     margin-top: -15px;
   }
