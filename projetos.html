@@ -178,6 +178,27 @@
 
             </div> <!-- Fim do 5º cartão -->
 
+            <!-- Inicio do 6º cartão -->
+            <div class="cartao mb-5 col-8 col-sm-8 col-md-6 col-lg-4 col-xl-4">
+
+                <div class="card">
+
+                    <img class="tamanho-imagem" src="img/cronometro.png">
+
+                    <div class="card-body">
+
+                        <h4 class="card-title">Cronômetro</h4>
+
+                        <p class="card-text mt-1">Programado com JavaScript, este projeto simula um cronometro de um celular, em que você pode iniciar a contagem, a pausar, além de a reiniciar.</p>
+
+                        <a class="btn btn-outline-primary" href="cronometro/index.html">Ver o projeto</a>
+
+                    </div>
+
+                </div>
+
+            </div> <!-- Fim do 6º cartão -->
+
         </div> <!-- Fim dos cartões -->
 
         <br>
@@ -247,22 +268,6 @@
 
     </footer> <!-- Fim do Rodapé -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
@@ -280,35 +285,3 @@
 </body>
 
 </html>
-
-<script>
-    $("#estados").on("change", function () {
-        var idEstado = $("#estados").val();
-
-        $.ajax({
-            url: 'pega_cidades.html',
-            type: 'POST',
-            data: {
-                id: idEstado
-            },
-            beforeSend: function () {
-                $("#cidades").css({
-                    'display': 'block'
-                });
-                $("#cidades").html("Carregando...");
-            },
-            success: function (data) {
-                $("#cidades").css({
-                    'display': 'block'
-                });
-                $("#cidades").html(data);
-            },
-            error: function (data) {
-                $("#cidades").css({
-                    'display': 'block'
-                });
-                $("#cidades").html("Houve um erro ao carregar");
-            }
-        });
-    });
-</script>
