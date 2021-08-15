@@ -1,0 +1,11 @@
+button{
+    width: 51px;
+    height: 80px;
+    margin-left: 50px;
+} 
+
+#interruptor {
+    background-color: rgb(173, 173, 173); 
+    padding: 40px 40px; 
+    border: 1px solid black;
+}
