@@ -3019,16 +3019,22 @@ footer ul li a#twitter {
   }
 
   .servicos {
-    color: #0f00e4;
+    color: rgb(53, 21, 168);
     font-size: 50px;
   }
 
+  .servicos1 {
+    color: rgb(53, 21, 168);
+    font-size: 25px;
+  }
+
   .servicos2 {
-    color: #0f00e4;
+    color: rgb(53, 21, 168);
     font-size: 43px;
   }
 
   .servicos-2 {
+    color: rgb(68, 36, 185);
     font-size: 16px;
     margin-top: -15px;
   }
