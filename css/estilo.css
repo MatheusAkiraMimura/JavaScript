@@ -162,7 +162,7 @@ footer .navbar-nav a:hover i {
   text-decoration: none;
 }
 
-footer ul li a#facebook {
+footer ul li a#linkedin {
   float: right;
   margin: 0 10px;
 }
@@ -172,7 +172,7 @@ footer ul li a#whatsap {
   margin: 0 10px;
 }
 
-footer ul li a#twitter {
+footer ul li a#github {
   float: right;
   margin: 0 10px;
 }
@@ -2267,8 +2267,8 @@ footer ul li a#twitter {
   }
 
   #ajuste-tamanho-lg-3 {
-    width: 665px;
-    margin-top: 41px;
+    width: 450px;
+    margin-top: -10px;
     margin-left: -25px;
   }
 
