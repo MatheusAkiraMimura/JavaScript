@@ -1,0 +1,48 @@
+button {
+    padding: 10px;
+    border: none;
+    transition: all .5s;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: rgb(3, 50, 104);
+}
+
+.celular {
+    position: relative;
+}
+
+.comecar {
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 140px;
+    font-size: 25px;
+    background-color: rgb(79, 255, 117);
+}
+
+.pausar {
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 238px;
+    font-size: 25px;
+    background-color: rgb(255, 98, 98);
+}
+
+.reiniciar {
+    position: absolute;
+    margin-top: -240px;
+    margin-left: 340px;
+    font-size: 25px;
+    background-color: rgb(86, 221, 255);
+}
+
+#contador {
+    position: absolute;
+    margin-top: -515px;
+    margin-left: 164px;
+    font-size: 70px;
+    color: rgb(57, 173, 240);
+}
+
