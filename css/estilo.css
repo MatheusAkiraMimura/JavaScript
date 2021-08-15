@@ -543,7 +543,7 @@ footer ul li a#twitter {
   }
 
   .servicos {
-    color: #8804b0;
+    color: #0f00e4;
     font-size: 27px;
   }
 
@@ -930,7 +930,7 @@ footer ul li a#twitter {
   }
 
   .servicos {
-    color: #8804b0;
+    color: #0f00e4;
     font-size: 25px;
   }
 
@@ -1313,7 +1313,7 @@ footer ul li a#twitter {
   }
 
   .servicos {
-    color: #8804b0;
+    color: #0f00e4;
     font-size: 25px;
   }
 
@@ -1698,7 +1698,7 @@ footer ul li a#twitter {
   }
 
   .servicos {
-    color: #8804b0;
+    color: #0f00e4;
     font-size: 25px;
   }
 
@@ -2132,7 +2132,7 @@ footer ul li a#twitter {
   }
 
   .servicos {
-    color: #8804b0;
+    color: #0f00e4;
     font-size: 28px;
   }
 
@@ -2585,7 +2585,7 @@ footer ul li a#twitter {
   }
 
   .servicos {
-    color: #8804b0;
+    color: #0f00e4;
     font-size: 27px;
   }
 
@@ -2776,8 +2776,8 @@ footer ul li a#twitter {
 
   /****************** Eventos principais *********************/
   .titulo-eventos {
-    margin: 10px 0 -30px -20px;
-    font-size: 40px;
+    margin: 10px 0 -10px -20px;
+    font-size: 55px;
   }
 
   .titulo-eventos2 {
@@ -3019,8 +3019,13 @@ footer ul li a#twitter {
   }
 
   .servicos {
-    color: #8804b0;
-    font-size: 30px;
+    color: #0f00e4;
+    font-size: 50px;
+  }
+
+  .servicos2 {
+    color: #0f00e4;
+    font-size: 43px;
   }
 
   .servicos-2 {
