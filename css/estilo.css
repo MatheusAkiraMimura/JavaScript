@@ -1,0 +1,3062 @@
+/************ Body *************************/
+body {
+  background: url(../img/ruido.png),
+    linear-gradient(30deg, #df00d6, #59fbf4);
+  background-attachment: fixed;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body#categoria-capa {
+  background: white;
+  font-family: Helvetica, Arial, sans-serif;
+  background-attachment: initial;
+}
+
+
+/************ Seção Home *************************/
+#home {
+  color: white;
+  margin-top: 90px;
+  margin-left: 5px;
+  height: 520px;
+}
+
+/**************** Barra de navegação ************************/
+nav.navbar-transparente {
+  padding: 15px 0px;
+  background: rgba(0, 18, 51, 0.6);
+}
+
+nav.navbar-transparente-2 {
+  padding: 15px 0px;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.cor-usuario {
+  color: rgb(238, 238, 238);
+}
+
+
+
+/*************** Carrosel Home ***********************/
+.slide-passar {
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.slide-passar-2 {
+  color: rgba(94, 94, 94, 0.9);
+}
+
+.cor-saiba-mais {
+  color: #ffffff;
+  background-color: #2640b8;
+}
+
+.cor-saiba-mais:hover {
+  color: #92d7ff;
+  background-color: #2947cc;
+}
+
+/*************** Carrosel Eventos Principais *******************/
+.seta-eventos-principais-esquerda {
+  margin-left: -105px;
+}
+
+/*************** Estrutura de conteúdos Index ***************/
+#eventos-principais {
+  background: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 45px;
+  padding-right: 40px;
+  color: black;
+}
+
+#eventos-principais h3 {
+  color: #5420b4;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+/**************** Exibir Eventos *******************/
+
+.exibir {
+  font-size: 25px;
+  text-align: center;
+}
+.exibir-1 {
+  padding-top: 100px;
+  font-size: 25px;
+}
+
+/******************* Rodapé **********************/
+footer {
+  padding: 35px 0px 20px 0px;
+  background: rgb(19, 83, 156);
+}
+
+footer a:hover {
+  font-size: 50px;
+}
+
+footer#cadastro {
+  margin-top: 100px;
+  padding: 20px 0px 20px 0px;
+  background: rgb(19, 83, 156);
+}
+
+footer#categoria-rodape {
+  margin-top: 30px;
+  padding: 35px 0px 20px 0px;
+  background: rgb(19, 83, 156);
+}
+
+footer#sobre {
+  margin-top: 10px;
+  padding: 35px 0px 20px 0px;
+  background: rgb(19, 83, 156);
+}
+
+footer#privacidade-rodape {
+  margin-top: 10px;
+  padding: 35px 0px 20px 0px;
+  background: rgb(19, 83, 156);
+}
+
+footer h4 {
+  color: #fcb8b8;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+  color: white;
+  font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+  color: #9bf0e1;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+footer .navbar-nav a:hover i {
+  color: #9bf0e1;
+  text-decoration: none;
+}
+
+footer ul li a#facebook {
+  float: right;
+  margin: 0 10px;
+}
+
+footer ul li a#whatsap {
+  float: right;
+  margin: 0 10px;
+}
+
+footer ul li a#twitter {
+  float: right;
+  margin: 0 10px;
+}
+
+.empresa {
+  margin-left: 0px;
+  font-size: 1.1em;
+}
+
+.site {
+  margin-left: 0px;
+  font-size: 1.1em;
+}
+
+/* cartão */
+
+.cartao p {
+  margin-left: -10px;
+  margin-top: -10px;
+  text-align: justify;
+  font-size: 14px;
+  overflow: hidden; /**Removendo barra de rolagem**/
+  text-overflow: ellipsis; /** Adicionando "..." ao final**/
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /** Quantidade de linhas**/
+  -webkit-box-orient: vertical;
+}
+
+/* Extra extra extra small devices (celulares portáveis, menores do que 576px) */
+@media (max-width: 399.98px) {
+  /**************** Barra de navegação ************************/
+  #nav-principal {
+    margin-left: 89%;
+    margin-right: 20px;
+  }
+
+  nav.navbar-transparente {
+    padding-left: 22px;
+    padding-right: 50px;
+  }
+
+  nav.navbar-transparente-2 {
+    padding-left: 22px;
+    padding-right: 50px;
+  }
+
+  /***************** Setas da capa **************************/
+  .seta-home {
+    height: 50px;
+    margin: 225px -15px 0px -35px;
+  }
+
+  /***************** Capa 1 **************************/
+  #home {
+    height: 480px;
+  }
+
+  #home #capa1 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa1 h1 {
+    font-size: 3.6em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 20px;
+  }
+
+  #home #capa1 p {
+    font-size: 0.9em;
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa 2 **************************/
+  #home {
+    height: 480px;
+  }
+  #home #capa2 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa2 h1 {
+    font-size: 3.419em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 20px;
+  }
+
+  #home #capa2 p {
+    font-size: 0.89em;
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa 3 **************************/
+  #home #capa3 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa3 h1 {
+    font-size: 3em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 55px;
+    margin-left: -21px;
+  }
+
+  #home #capa3 p {
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa 4 **************************/
+  #home {
+    height: 480px;
+  }
+
+  #home #capa4 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa4 h1 {
+    font-size: 2.7em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 65px;
+  }
+
+  #home #capa4 p {
+    font-size: 0.9em;
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa Categoria **************************/
+
+  #capa-categoria {
+    margin-top: -100px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    background: white;
+    padding: 15px;
+    color: white;
+  }
+
+  #capa-categoria-2 {
+    margin-top: 128px;
+    margin-bottom: -30px;
+    background: white;
+    color: #5420b4;
+    font-size: 20px;
+  }
+
+  /****************** Eventos principais *********************/
+  .tamanho {
+    margin-left: -30px;
+    margin-top: 15px;
+    width: 500px;
+  }
+
+  #largura {
+    width: 90%;
+    margin: auto;
+  }
+
+  .seta-eventos-principais-esquerda {
+    margin-left: -50px;
+    margin-top: -200px;
+  }
+
+  .seta-eventos-principais-direita {
+    margin-right: -50px;
+    margin-top: -200px;
+  }
+
+  .titulo-eventos {
+    margin-bottom: 0px;
+    margin-left: -20px;
+    margin-top: 0px;
+    font-size: 33px;
+  }
+
+  .titulo-eventos2 {
+    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-top: 90px;
+    font-size: 33px;
+  }
+
+  .titulo-eventos3 {
+    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-top: 20px;
+    font-size: 38px;
+  }
+
+  /**************** Conteúdo Sobre *********************/
+  #altura-primeiro-item {
+    margin-top: 100px;
+  }
+
+  .titulo-1 {
+    font-size: 45px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .titulo-desenvolvedores {
+    font-size: 38px;
+    padding-bottom: 15px;
+    margin-left: 5px;
+    margin-top: 30px;
+  }
+
+  #sobre h1 {
+    font-size: 32px;
+  }
+
+  #sobre h2 {
+    font-size: 24px;
+  }
+
+  #sobre p {
+    font-size: 14px;
+  }
+
+  .espacamento-1 {
+    margin-bottom: -35px;
+  }
+
+  .espacamento-2 {
+    margin-bottom: -60px;
+  }
+
+  .espacamento-3 {
+    margin-bottom: 20px;
+  }
+
+  #espacamento-anuncie-2 {
+    margin-top: -80px;
+  }
+
+  #espacamento-anuncie-3 {
+    margin-top: -80px;
+  }
+
+  /*************** Cards ***************/
+
+  .espacamento {
+    margin-left: -35px;
+  }
+
+  .cartao h4 {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .cartao h6 {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .cartao p {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .cartao a {
+    margin: auto;
+  }
+
+  .cartao-criar a {
+    margin: auto;
+  }
+
+  .cartao {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    height: 330px;
+    margin-bottom: 100px;
+  }
+
+  .cartao-criar {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    height: 280px;
+    margin-bottom: 75px;
+    margin-top: 25px;
+  }
+
+  .tamanho-imagem {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  .tamanho-imagens {
+    width: 320px;
+  }
+
+  .card-imagem {
+    width: 100%;
+    height: 140px;
+  }
+
+  .cartao-eventos {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 5px;
+    height: 330px;
+  }
+
+  .cartao-eventos p {
+    padding: 5px;
+  }
+
+
+  /************** Tipografia **********************/
+  @font-face {
+    font-family: Sunday Morning;
+    src: url("../fontes/Sunday Morning.ttf");
+  }
+
+  .dicacertaServicos {
+    font-family: Sunday Morning;
+    font-size: 33px;
+    color: #8804b0;
+    margin-left: -30px;
+  }
+
+  #anuncie-de-forma-gratuita {
+    font-size: 60px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    letter-spacing: -0.07em;
+    color: #8804B0 ;
+  }
+
+  #sobre-empresa {
+    font-size: 60px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    letter-spacing: -0.07em;
+    color: #8804B0 ;
+  }
+
+  .servicos {
+    color: #8804b0;
+    font-size: 27px;
+  }
+
+  .servicos-2 {
+    font-size: 16px;
+    margin-top: -15px;
+  }
+
+  .servicos-3 {
+    color: #8804b0;
+    font-size: 27px;
+  }
+
+  .funcionamos {
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: -3px;
+    font-weight: 1000;
+  }
+
+  .funcionamos-2 {
+    color: white;
+    font-size: 14px;
+    margin-top: -15px;
+  }
+
+  /******************* Navegar pelas Páginas *******************/
+  #eventos-de-forma-facil {
+    margin-bottom: 30%;
+  }
+
+  #espacamento-anuncie-2 {
+    margin-top: 15px;
+  }
+
+  #espacamento-anuncie-3 {
+    margin-top: 15px;
+  }
+}
+
+/* Extra extra small devices (celulares portáveis, menores do que 576px) */
+@media (min-width: 400px) and (max-width: 477.98px) {
+  /**************** Barra de navegação ************************/
+  #nav-principal {
+    margin-left: 89%;
+    margin-right: 20px;
+  }
+
+  nav.navbar-transparente {
+    padding-left: 22px;
+    padding-right: 50px;
+  }
+
+  nav.navbar-transparente-2 {
+    padding-left: 22px;
+    padding-right: 50px;
+  }
+
+  .logo-nova {
+    width: 200px;
+  }
+
+  /***************** Setas da capa **************************/
+  .seta-home {
+    height: 50px;
+    margin: 225px -15px 0px -35px;
+  }
+
+  /***************** Capa 1 **************************/
+  #home {
+    height: 480px;
+  }
+
+  #home #capa1 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa1 h1 {
+    font-size: 3.5em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 50px;
+  }
+
+  #home #capa1 p {
+    font-size: 0.9em;
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa 2 **************************/
+  #home {
+    height: 480px;
+  }
+  #home #capa2 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa2 h1 {
+    font-size: 3.6em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 20px;
+  }
+
+  #home #capa2 p {
+    font-size: 0.89em;
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa 3 **************************/
+  #home #capa3 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa3 h1 {
+    font-size: 3.6em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 55px;
+    margin-left: -21px;
+  }
+
+  #home #capa3 p {
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa 4 **************************/
+  #home {
+    height: 480px;
+  }
+
+  #home #capa4 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa4 h1 {
+    font-size: 2.9em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 85px;
+  }
+
+  #home #capa4 p {
+    font-size: 0.9em;
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa Categoria **************************/
+
+  #capa-categoria {
+    margin-top: -120px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    background: white;
+    padding: 15px;
+    color: white;
+  }
+
+  #capa-categoria-2 {
+    margin-top: 128px;
+    margin-bottom: -30px;
+    background: white;
+    color: #5420b4;
+    font-size: 20px;
+  }
+
+  /****************** Eventos principais *********************/
+  .tamanho {
+    margin-left: -30px;
+    margin-top: 15px;
+    width: 500px;
+  }
+
+  #largura {
+    width: 90%;
+    margin: auto;
+  }
+
+  .seta-eventos-principais-esquerda {
+    margin-left: -50px;
+    margin-top: -200px;
+  }
+
+  .seta-eventos-principais-direita {
+    margin-right: -50px;
+    margin-top: -200px;
+  }
+
+  .titulo-eventos {
+    margin-bottom: 0px;
+    margin-left: -20px;
+    margin-top: 0px;
+    font-size: 33px;
+  }
+
+  .titulo-eventos2 {
+    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-top: 90px;
+    font-size: 33px;
+  }
+
+  .titulo-eventos3 {
+    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-top: 20px;
+    font-size: 38px;
+  }
+
+  /**************** Conteúdo Sobre *********************/
+  #altura-primeiro-item {
+    margin-top: 100px;
+  }
+
+  .titulo-1 {
+    font-size: 45px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .titulo-desenvolvedores {
+    font-size: 38px;
+    padding-bottom: 15px;
+    margin-left: 5px;
+    margin-top: 30px;
+  }
+
+  #sobre h1 {
+    font-size: 32px;
+  }
+
+  #sobre h2 {
+    font-size: 24px;
+  }
+
+  #sobre p {
+    font-size: 14px;
+  }
+
+  .espacamento-1 {
+    margin-bottom: -35px;
+  }
+
+  .espacamento-2 {
+    margin-bottom: -60px;
+  }
+
+  .espacamento-3 {
+    margin-bottom: 20px;
+  }
+
+  #espacamento-anuncie-2 {
+    margin-top: -80px;
+  }
+
+  #espacamento-anuncie-3 {
+    margin-top: -80px;
+  }
+
+  /*************** Cards ***************/
+
+  .espacamento {
+    margin-left: -35px;
+  }
+
+  .cartao h4 {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .cartao h6 {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .cartao p {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .cartao a {
+    margin: auto;
+  }
+
+  .cartao-criar a {
+    margin: auto;
+  }
+
+  .cartao {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    height: 330px;
+    margin-bottom: 100px;
+  }
+
+  .cartao-criar {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    height: 280px;
+    margin-bottom: 75px;
+    margin-top: 25px;
+  }
+
+  .tamanho-imagem {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  .tamanho-imagens {
+    width: 320px;
+  }
+
+  .card-imagem {
+    width: 100%;
+    height: 140px;
+  }
+
+  .cartao-eventos {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 5px;
+    height: 330px;
+  }
+
+  .cartao-eventos p {
+    padding: 5px;
+  }
+
+  /************** Tipografia **********************/
+  @font-face {
+    font-family: Sunday Morning;
+    src: url("../fontes/Sunday Morning.ttf");
+  }
+
+  .dicacertaServicos {
+    font-family: Sunday Morning;
+    font-size: 45px;
+    color: #8804b0;
+    margin-left: -30px;
+  }
+
+  #anuncie-de-forma-gratuita {
+    font-size: 60px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    letter-spacing: -0.07em;
+    color: #8804B0 ;
+  }
+
+  #sobre-empresa {
+    font-size: 60px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    letter-spacing: -0.07em;
+    color: #8804B0 ;
+  }
+
+  .servicos {
+    color: #8804b0;
+    font-size: 25px;
+  }
+
+  .servicos-2 {
+    font-size: 16px;
+    margin-top: -15px;
+  }
+
+  .servicos-3 {
+    color: #8804b0;
+    font-size: 25px;
+  }
+
+  .funcionamos {
+    color: white;
+    font-size: 43px;
+    text-align: center;
+    letter-spacing: -3px;
+    font-weight: 1000;
+  }
+
+  .funcionamos-2 {
+    color: white;
+    font-size: 15px;
+    margin-top: -15px;
+  }
+
+  /******************* Navegar pelas Páginas *******************/
+  #eventos-de-forma-facil {
+    margin-bottom: 30%;
+  }
+
+  #espacamento-anuncie-2 {
+    margin-top: 15px;
+  }
+
+  #espacamento-anuncie-3 {
+    margin-top: 15px;
+  }
+}
+
+/* Extra small devices (celulares portáveis, menores do que 576px) */
+@media (min-width: 478px) and (max-width: 575.98px) {
+  /**************** Barra de navegação ************************/
+  #nav-principal {
+    margin-left: 89%;
+    margin-right: 20px;
+  }
+
+  nav.navbar-transparente {
+    padding-left: 22px;
+    padding-right: 50px;
+  }
+
+  nav.navbar-transparente-2 {
+    padding-left: 22px;
+    padding-right: 50px;
+  }
+
+  /***************** Setas da capa **************************/
+  .seta-home {
+    height: 50px;
+    margin: 225px -15px 0px -35px;
+  }
+
+  /***************** Capa 1 **************************/
+  #home {
+    height: 480px;
+  }
+
+  #home #capa1 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa1 h1 {
+    font-size: 3.6em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 70px;
+  }
+
+  #home #capa1 p {
+    font-size: 0.9em;
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa 2 **************************/
+  #home {
+    height: 480px;
+  }
+  #home #capa2 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa2 h1 {
+    font-size: 3.419em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 80px;
+  }
+
+  #home #capa2 p {
+    font-size: 0.89em;
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa 3 **************************/
+  #home #capa3 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa3 h1 {
+    font-size: 3.5em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 75px;
+  }
+
+  #home #capa3 p {
+    font-size: 0.9em;
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa 4 **************************/
+  #home {
+    height: 480px;
+  }
+
+  #home #capa4 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa4 h1 {
+    font-size: 3.4em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 85px;
+  }
+
+  #home #capa4 p {
+    font-size: 0.9em;
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa Categoria **************************/
+
+  #capa-categoria {
+    margin-top: -120px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    background: white;
+    padding: 15px;
+    color: white;
+  }
+
+  #capa-categoria-2 {
+    margin-top: 128px;
+    margin-bottom: -30px;
+    background: white;
+    color: #5420b4;
+    font-size: 18px;
+  }
+
+  /****************** Eventos principais *********************/
+  .tamanho {
+    margin-left: -30px;
+    margin-top: 15px;
+    width: 500px;
+  }
+
+  #largura {
+    width: 90%;
+    margin: auto;
+  }
+
+  .seta-eventos-principais-esquerda {
+    margin-left: -50px;
+    margin-top: -200px;
+  }
+
+  .seta-eventos-principais-direita {
+    margin-right: -50px;
+    margin-top: -200px;
+  }
+
+  .titulo-eventos {
+    margin-bottom: 0px;
+    margin-left: -20px;
+    margin-top: 0px;
+    font-size: 33px;
+  }
+
+  .titulo-eventos2 {
+    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-top: 90px;
+    font-size: 33px;
+  }
+
+  .titulo-eventos3 {
+    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-top: 20px;
+    font-size: 38px;
+  }
+
+  /**************** Conteúdo Sobre *********************/
+  #altura-primeiro-item {
+    margin-top: 100px;
+  }
+
+  .titulo-1 {
+    font-size: 45px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .titulo-desenvolvedores {
+    font-size: 38px;
+    padding-bottom: 15px;
+    margin-left: 5px;
+    margin-top: 30px;
+  }
+
+  #sobre h1 {
+    font-size: 32px;
+  }
+
+  #sobre h2 {
+    font-size: 24px;
+  }
+
+  #sobre p {
+    font-size: 14px;
+  }
+
+  .espacamento-1 {
+    margin-bottom: -35px;
+  }
+
+  .espacamento-2 {
+    margin-bottom: -60px;
+  }
+
+  .espacamento-3 {
+    margin-bottom: 20px;
+  }
+
+  #espacamento-anuncie-2 {
+    margin-top: -80px;
+  }
+
+  #espacamento-anuncie-3 {
+    margin-top: -80px;
+  }
+
+  /*************** Cards ***************/
+
+  .espacamento {
+    margin-left: -35px;
+  }
+
+  .cartao h4 {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .cartao h6 {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .cartao p {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .cartao a {
+    margin: auto;
+  }
+
+  .cartao-criar a {
+    margin: auto;
+  }
+
+  .cartao {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    height: 330px;
+    margin-bottom: 100px;
+  }
+
+  .cartao-criar {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    height: 280px;
+    margin-bottom: 75px;
+    margin-top: 25px;
+  }
+
+  .tamanho-imagem {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  .tamanho-imagens {
+    width: 320px;
+  }
+
+  .card-imagem {
+    width: 100%;
+    height: 140px;
+  }
+
+  .cartao-eventos {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 5px;
+    height: 330px;
+  }
+
+  .cartao-eventos p {
+    padding: 5px;
+  }
+
+  /************* Tipografia ********************/
+
+  @font-face {
+    font-family: Sunday Morning;
+    src: url("../fontes/Sunday Morning.ttf");
+  }
+
+  .dicacertaServicos {
+    font-family: Sunday Morning;
+    font-size: 34px;
+    color: #8804b0;
+    margin-left: -30px;
+  }
+
+  #anuncie-de-forma-gratuita {
+    font-size: 80px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    letter-spacing: -0.07em;
+    color: #8804B0 ;
+  }
+
+  #sobre-empresa {
+    font-size: 80px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    letter-spacing: -0.07em;
+    color: #8804B0 ;
+  }
+
+  .servicos {
+    color: #8804b0;
+    font-size: 25px;
+  }
+
+  .servicos-2 {
+    font-size: 16px;
+    margin-top: -15px;
+  }
+
+  .servicos-3 {
+    color: #8804b0;
+    font-size: 25px;
+  }
+
+  .funcionamos {
+    color: white;
+    font-size: 47px;
+    text-align: center;
+    letter-spacing: -3px;
+    font-weight: 1000;
+  }
+
+  .funcionamos-2 {
+    color: white;
+    font-size: 16px;
+    margin-top: -15px;
+    padding-right: 20px;
+  }
+
+  /******************* Navegar pelas Páginas *******************/
+  #eventos-de-forma-facil {
+    margin-bottom: 30%;
+  }
+
+  #espacamento-anuncie-2 {
+    margin-top: 15px;
+  }
+
+  #espacamento-anuncie-3 {
+    margin-top: 15px;
+  }
+}
+
+/* Small devices (celulares em modo paisagem, com 576px para cima) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /**************** Barra de navegação ************************/
+
+  #nav-principal {
+    margin-left: 91%;
+  }
+
+  nav.navbar-transparente {
+    margin-left: -10px;
+    padding-left: 20px;
+    padding-right: 50px;
+  }
+
+  nav.navbar-transparente-2 {
+    margin-left: -10px;
+    padding-left: 20px;
+    padding-right: 50px;
+  }
+
+  /******************* Conteudo (cadastro) ************************/
+  .centralizar {
+    margin-top: 100px;
+    padding: 50px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  .centralizar-2 {
+    margin-top: 100px;
+    padding: 50px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+  }
+
+  /****************** Setas da capa ***********************/
+  .seta-home {
+    height: 50px;
+    margin: 225px -22.4px 0px -50px;
+  }
+
+  /***************** Capa 1 **************************/
+  #home #capa1 {
+    color: white;
+    margin-left: 20px;
+  }
+
+  #home #capa1 h1 {
+    font-size: 4.5em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 55px;
+  }
+
+  #home #capa1 p {
+    font-size: 0.95em;
+    margin-top: -30px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa 2 **************************/
+  #home #capa2 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa2 h1 {
+    font-size: 3.7em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 70px;
+  }
+
+  #home #capa2 p {
+    font-size: 0.95em;
+    margin-top: -20px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa 3 **************************/
+  #home #capa3 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa3 h1 {
+    font-size: 4.5em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 55px;
+  }
+
+  #home #capa3 p {
+    font-size: 0.95em;
+    margin-top: -30px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa 4 **************************/
+  #home #capa4 {
+    color: white;
+    margin-left: 20px;
+  }
+
+  #home #capa4 h1 {
+    font-size: 3.9em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: 75px;
+  }
+
+  #home #capa4 p {
+    font-size: 0.95em;
+    margin-top: -30px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa Categoria **************************/
+
+  #capa-categoria {
+    margin-top: -120px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    background: white;
+    padding: 15px;
+    color: white;
+  }
+
+  #capa-categoria-2 {
+    margin-top: 128px;
+    margin-bottom: -30px;
+    background: white;
+    color: #5420b4;
+    font-size: 22px;
+  }
+
+  /****************** Eventos principais *********************/
+  .tamanho {
+    margin-top: 15px;
+    width: 500px;
+  }
+
+  #largura {
+    width: 90%;
+    margin: auto;
+  }
+
+  .seta-eventos-principais-esquerda {
+    margin-left: -50px;
+    margin-top: -200px;
+  }
+
+  .seta-eventos-principais-direita {
+    margin-right: -50px;
+    margin-top: -200px;
+  }
+
+  .titulo-eventos {
+    margin-bottom: 0px;
+    margin-left: -20px;
+    margin-top: 0px;
+    font-size: 45px;
+  }
+
+  .titulo-eventos2 {
+    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-top: 90px;
+    font-size: 38px;
+  }
+
+  .titulo-eventos3 {
+    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-top: 20px;
+    font-size: 38px;
+  }
+
+  /**************** Conteúdo Sobre *********************/
+  #altura-primeiro-item {
+    margin-top: 100px;
+  }
+
+  .titulo-1 {
+    font-size: 50px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .titulo-desenvolvedores {
+    font-size: 43px;
+    padding-bottom: 15px;
+    margin-left: 5px;
+    margin-top: 30px;
+  }
+
+  #sobre h2 {
+    font-size: 27px;
+  }
+
+  #sobre p {
+    font-size: 14.4px;
+  }
+
+  .espacamento-1 {
+    margin-bottom: -10px;
+  }
+
+  .espacamento-2 {
+    margin-bottom: -40px;
+  }
+
+  .espacamento-3 {
+    margin-bottom: 40px;
+  }
+
+  #espacamento-anuncie-2 {
+    margin-top: -80px;
+  }
+
+  #espacamento-anuncie-3 {
+    margin-top: -80px;
+  }
+
+  /*************** Cards ***************/
+
+  .espacamento {
+    margin-left: -35px;
+  }
+
+  .cartao h4 {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .cartao h6 {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .cartao p {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .cartao a {
+    margin: auto;
+  }
+
+  .cartao-criar a {
+    margin: auto;
+  }
+
+  .cartao {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    height: 330px;
+    margin-bottom: 150px;
+  }
+
+  .cartao-criar {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    height: 330px;
+    margin-bottom: 70px;
+    margin-top: 25px;
+  }
+
+  .tamanho-imagem {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  .tamanho-imagens {
+    width: 500px;
+  }
+
+  .card-imagem {
+    width: 100%;
+    height: 140px;
+  }
+
+  .cartao-eventos {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 5px;
+    height: 330px;
+  }
+
+  .cartao-eventos p {
+    padding: 5px;
+  }
+
+  /************* Tipografia ********************/
+
+  @font-face {
+    font-family: Sunday Morning;
+    src: url("../fontes/Sunday Morning.ttf");
+  }
+
+  .dicacertaServicos {
+    font-family: Sunday Morning;
+    font-size: 47px;
+    color: #8804b0;
+    margin-left: -30px;
+  }
+
+  #anuncie-de-forma-gratuita {
+    font-size: 50px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    letter-spacing: -0.07em;
+    color: #8804B0 ;
+  }
+
+  #sobre-empresa {
+    font-size: 60px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    letter-spacing: -0.07em;
+    color: #8804B0 ;
+  }
+
+  .servicos {
+    color: #8804b0;
+    font-size: 25px;
+  }
+
+  .servicos-2 {
+    font-size: 16px;
+    margin-top: -15px;
+  }
+
+  .servicos-3 {
+    color: #8804b0;
+    font-size: 25px;
+  }
+
+  .funcionamos {
+    color: white;
+    font-size: 57px;
+    text-align: center;
+    letter-spacing: -3px;
+    font-weight: 1000;
+  }
+
+  .funcionamos-2 {
+    color: white;
+    font-size: 17px;
+    margin-top: -15px;
+  }
+  /******************* Navegar pelas Páginas *******************/
+  #eventos-de-forma-facil {
+    margin-bottom: 30%;
+  }
+
+  #espacamento-anuncie-2 {
+    margin-top: 15px;
+  }
+
+  #espacamento-anuncie-3 {
+    margin-top: 15px;
+  }
+}
+
+/* Medium devices (Tablets, com 768px para cima) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /**************** Barra de navegação ************************/
+  nav.navbar-transparente {
+    margin-left: -50px;
+  }
+
+  nav.navbar-transparente-2 {
+    margin-left: -50px;
+  }
+
+  .entre-logo-botao {
+    padding-right: 95px;
+  }
+
+  /****************** Setas da capa ************************/
+  .seta-home {
+    height: 50px;
+    margin: 225px -28px 0px -60px;
+  }
+
+  .seta-home-2 {
+    height: 50px;
+    margin: 155px -10px 0px -20px;
+  }
+
+  /***************** Capa 1 **************************/
+  #home #capa1 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa1 h1 {
+    margin-top: 20px;
+    font-size: 6.3em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+  }
+
+  #home #capa1 p {
+    font-size: 1.2em;
+    margin-top: -40px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa 2 **************************/
+  #home #capa2 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa2 h1 {
+    margin-top: 60px;
+    font-size: 5em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+  }
+
+  #home #capa2 p {
+    font-size: 1em;
+    margin-top: -30px;
+    margin-bottom: 25px;
+  }
+
+  /***************** Capa 3 **************************/
+  #home #capa3 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa3 h1 {
+    margin-top: 30px;
+    font-size: 6em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+  }
+
+  #home #capa3 p {
+    font-size: 1.2em;
+    margin-top: -40px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa 4 **************************/
+  #home #capa4 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa4 h1 {
+    margin-top: 70px;
+    font-size: 5em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+  }
+
+  #home #capa4 p {
+    font-size: 1.2em;
+    margin-top: -40px;
+    margin-bottom: 30px;
+  }
+
+  /***************** Capa Categoria **************************/
+
+  #capa-categoria {
+    margin-top: -110px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    background: white;
+    padding: 15px;
+    color: white;
+  }
+
+  #capa-categoria-2 {
+    margin-top: 128px;
+    margin-bottom: -30px;
+    background: white;
+    color: #5420b4;
+    font-size: 25px;
+  }
+
+  /****************** Eventos principais *********************/
+  .seta-eventos-principais-esquerda {
+    margin-left: -85px;
+    margin-top: -80px;
+  }
+
+  .seta-eventos-principais-direita {
+    margin-right: -50px;
+    margin-top: -80px;
+  }
+
+  .titulo-eventos {
+    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-top: 10px;
+    font-size: 40px;
+  }
+
+  .titulo-eventos2 {
+    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-top: 70px;
+    font-size: 38px;
+  }
+
+  .titulo-eventos3 {
+    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-top: 20px;
+    font-size: 38px;
+  }
+
+  #largura {
+    width: 90%;
+    margin: auto;
+  }
+
+  /**************** Conteúdo Sobre *********************/
+  #altura-primeiro-item {
+    margin-top: 100px;
+  }
+
+  .titulo-1 {
+    font-size: 50px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .titulo-desenvolvedores {
+    font-size: 43px;
+    padding-bottom: 15px;
+    margin-left: 5px;
+    margin-top: 30px;
+  }
+
+  #sobre h2 {
+    font-size: 27px;
+  }
+
+  #sobre p {
+    font-size: 14.4px;
+  }
+
+  #imagem-eventos-1 {
+    width: 160px;
+    margin-left: 40px;
+  }
+
+  #imagem-eventos-2 {
+    width: 160px;
+    margin-left: 22px;
+  }
+
+  #imagem-eventos-3 {
+    width: 160px;
+    margin-left: 0px;
+  }
+
+  #imagem-2 {
+    width: 820px;
+    margin-left: -80px;
+  }
+
+  #imagem-3 {
+    width: 80%;
+    margin-left: 70px;
+  }
+
+  #imagem-4 {
+    width: 23.5%;
+    margin-left: 270px;
+    margin-top: 35px;
+    margin-bottom: 34px;
+  }
+
+  #imagem-5 {
+    width: 75%;
+    margin-left: 85px;
+    margin-top: 51px;
+    margin-bottom: 40.5px;
+  }
+
+  .altura-seta {
+    font-size: 19px;
+    padding-top: 140px;
+    padding-left: 2px;
+  }
+
+  .seta-anunciar-1 {
+    margin-left: 5px;
+    width: 60px;
+  }
+
+  #seta-eventos-1 {
+    width: 60px;
+    margin-left: 20px;
+  }
+
+  #seta-eventos-2 {
+    width: 60px;
+    margin-left: -5px;
+  }
+
+  #seta-eventos-3 {
+    margin-left: -40px;
+  }
+
+  .texto-ajuda {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: -60px;
+    margin-left: 45px;
+  }
+
+  .texto-ajuda-1 {
+    margin-top: -100px;
+    display: block;
+  }
+
+  .numero {
+    display: block;
+    font-size: 65px;
+    color: rgb(96, 33, 212);
+    margin-left: -45px;
+    margin-top: 30px;
+  }
+
+  .arredondamento {
+    border-radius: 1000px;
+    width: 240px;
+  }
+
+  
+
+  /*************** Cards ***************/
+
+  .espacamento {
+    margin-left: -35px;
+  }
+
+  .cartao h4 {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .cartao h6 {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .cartao p {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .cartao a {
+    margin: auto;
+  }
+
+  .cartao-criar a {
+    margin: auto;
+  }
+
+  .cartao {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    height: 330px;
+    margin-bottom: 75px;
+  }
+
+  .cartao-criar {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    height: 330px;
+    margin-bottom: 75px;
+    margin-top: 0px;
+  }
+
+  .tamanho-imagem {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  .tamanho-imagens {
+    width: 500px;
+  }
+
+  .card-imagem {
+    width: 100%;
+    height: 140px;
+  }
+
+  .cartao-eventos {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 5px;
+    height: 330px;
+  }
+
+  .cartao-eventos p {
+    padding: 5px;
+  }
+
+  /************* Tipografia ********************/
+
+  @font-face {
+    font-family: Sunday Morning;
+    src: url("../fontes/Sunday Morning.ttf");
+  }
+
+  .dicacertaServicos {
+    font-family: Sunday Morning;
+    font-size: 70px;
+    color: #8804b0;
+    margin-left: -30px;
+  }
+
+  #anuncie-de-forma-gratuita {
+    font-size: 60px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    letter-spacing: -0.07em;
+    color: #8804B0 ;
+  }
+
+  #sobre-empresa {
+    font-size: 60px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    letter-spacing: -0.07em;
+    color: #8804B0 ;
+  }
+
+  .servicos {
+    color: #8804b0;
+    font-size: 28px;
+  }
+
+  .servicos-2 {
+    font-size: 16px;
+    margin-top: -15px;
+  }
+
+  .servicos-3 {
+    color: #8804b0;
+    font-size: 28px;
+  }
+
+  .funcionamos {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: -3px;
+    font-weight: 1000;
+  }
+
+  .funcionamos-2 {
+    color: white;
+    font-size: 19px;
+    margin-top: -15px;
+  }
+
+  /************** Navegar pelas Páginas *****************/
+
+  #eventos-de-forma-facil {
+    margin-bottom: 13%;
+  }
+
+  #multiplas-plataformas {
+    margin-bottom: 13%;
+  }
+}
+
+/* Large devices (Desktops, com 992px para cima) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /**************** Barra de navegação ************************/
+  nav.navbar-transparente {
+    margin-left: -30px;
+  }
+
+  nav.navbar-transparente-2 {
+    margin-left: -30px;
+  }
+
+  .entre-logo-botao {
+    padding-right: 310px;
+  }
+
+  /******************* Setas da capa **********************/
+  .seta-home {
+    height: 50px;
+    margin: 225px -20px 0px -80px;
+  }
+
+  .seta-home-2 {
+    height: 50px;
+    margin: 225px 10px 0px -20px;
+  }
+
+  /***************** Capa 1 **************************/
+  #home #capa1 {
+    color: white;
+    margin-left: 30px;
+  }
+
+  #home #capa1 h1 {
+    font-size: 5.5em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: -45px;
+  }
+
+  #home #capa1 p {
+    font-size: 1em;
+    margin-top: -35px;
+    margin-bottom: 30px;
+  }
+
+  #ajuste-tamanho-lg-1 {
+    width: 285.5px;
+    margin-top: 61px;
+    margin-left: -40px;
+  }
+
+  /***************** Capa 2 **************************/
+  #home #capa2 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa2 h1 {
+    margin-top: -30px;
+    font-size: 4.23em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+  }
+
+  #home #capa2 p {
+    font-size: 0.9em;
+    margin-top: -25px;
+    margin-bottom: 25px;
+  }
+
+  #ajuste-tamanho-lg-2 {
+    width: 601px;
+    margin-top: 55px;
+    margin-left: -100px;
+  }
+
+  /***************** Capa 3 **************************/
+  #home #capa3 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa3 h1 {
+    margin-top: 10px;
+    font-size: 4.4em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+  }
+
+  #home #capa3 p {
+    font-size: 0.9em;
+    margin-top: -25px;
+    margin-bottom: 30px;
+  }
+
+  #ajuste-tamanho-lg-3 {
+    width: 665px;
+    margin-top: 41px;
+    margin-left: -25px;
+  }
+
+  /***************** Capa 4 **************************/
+  #home #capa4 {
+    color: white;
+    margin-left: 30px;
+  }
+
+  #home #capa4 h1 {
+    font-size: 4.6em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-top: -45px;
+  }
+
+  #home #capa4 p {
+    font-size: 1em;
+    margin-top: -35px;
+    margin-bottom: 30px;
+  }
+
+  #ajuste-tamanho-lg-4 {
+    width: 400px;
+    margin-top: 20px;
+  }
+  /***************** Capa Categoria **************************/
+
+  #capa-categoria {
+    margin-top: -110px;
+    margin-bottom: 50px;
+    margin-left: 12px;
+    background: white;
+    padding: 15px;
+    color: white;
+  }
+
+  #capa-categoria-2 {
+    margin-top: 128px;
+    margin-bottom: -30px;
+    background: white;
+    color: #5420b4;
+    font-size: 25px;
+  }
+
+  /****************** Eventos principais *********************/
+  .seta-eventos-principais-esquerda {
+    margin-left: -85px;
+  }
+
+  .seta-eventos-principais-direita {
+    margin-right: -20px;
+  }
+
+  .titulo-eventos {
+    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-top: 10px;
+    font-size: 40px;
+  }
+
+  .titulo-eventos2 {
+    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-top: 70px;
+    font-size: 38px;
+  }
+
+  .titulo-eventos3 {
+    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-top: 20px;
+    font-size: 38px;
+  }
+
+  #largura {
+    width: 90%;
+    margin: auto;
+  }
+
+  /**************** Conteúdo Sobre*********************/
+  #altura-primeiro-item {
+    margin-top: 100px;
+  }
+
+  .titulo-1 {
+    font-size: 50px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .titulo-desenvolvedores {
+    font-size: 43px;
+    padding-bottom: 15px;
+    margin-left: 5px;
+    margin-top: 30px;
+  }
+
+  #sobre h2 {
+    font-size: 27px;
+  }
+
+  #sobre p {
+    font-size: 14.4px;
+  }
+
+  #imagem-anunciar-1 {
+    width: 210px;
+    margin-left: 40px;
+  }
+
+  #imagem-anunciar-2 {
+    width: 210px;
+    margin-left: 45px;
+  }
+
+  #imagem-anunciar-3 {
+    width: 210px;
+    margin-left: 45px;
+  }
+
+  #imagem-eventos-1 {
+    width: 180px;
+    margin-left: 60px;
+  }
+
+  #imagem-eventos-2 {
+    width: 180px;
+    margin-left: 40px;
+  }
+
+  #imagem-eventos-3 {
+    width: 180px;
+    margin-left: 30px;
+  }
+
+  #imagem-2 {
+    width: 1000px;
+    margin-left: -70px;
+  }
+
+  #imagem-3 {
+    width: 75.8%;
+    margin-left: 100px;
+  }
+
+  #imagem-4 {
+    width: 20%;
+    margin-left: 360px;
+    margin-top: 75.5px;
+    margin-bottom: 55px;
+  }
+
+  #imagem-5 {
+    width: 70%;
+    margin-left: 120px;
+    margin-top: 72px;
+    margin-bottom: 50px;
+  }
+
+  .altura-seta {
+    padding-top: 175px;
+    padding-left: 15px;
+  }
+
+  #seta-eventos-1 {
+    width: 90px;
+    margin-left: 0px;
+  }
+
+  #seta-eventos-2 {
+    width: 90px;
+    margin-left: -17px;
+  }
+
+  #seta-eventos-3 {
+    margin-left: -25px;
+  }
+
+  .texto-ajuda {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-right: -60px;
+    margin-left: 70px;
+  }
+
+  .texto-ajuda-1 {
+    margin-top: -140px;
+    display: block;
+  }
+
+  .numero {
+    display: block;
+    font-size: 95px;
+    color: rgb(96, 33, 212);
+    margin-left: -60px;
+    margin-top: 30px;
+  }
+
+  /*************** Cards ***************/
+
+  .espacamento {
+    margin-left: -35px;
+  }
+
+  .cartao h4 {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .cartao h6 {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .cartao p {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .cartao a {
+    margin: auto;
+  }
+
+  .cartao-criar a {
+    margin: auto;
+  }
+
+  .cartao {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    height: 330px;
+    margin-bottom: 50px;
+  }
+
+  .cartao-criar {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    height: 330px;
+    margin-bottom: 50px;
+    margin-top: 0px;
+  }
+
+  .tamanho-imagem {
+    width: 100%;
+    display: block;
+    margin: auto;
+  }
+
+  .tamanho-imagens {
+    width: 500px;
+  }
+
+  .card-imagem {
+    width: 100%;
+    height: 140px;
+  }
+
+  .cartao-eventos {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 5px;
+    height: 330px;
+  }
+
+  .cartao-eventos p {
+    padding: 5px;
+  }
+
+  /************* Tipografia ********************/
+
+  @font-face {
+    font-family: Sunday Morning;
+    src: url("../fontes/Sunday Morning.ttf");
+  }
+
+  .dicacertaServicos {
+    font-family: Sunday Morning;
+    font-size: 68px;
+    color: #8804b0;
+  }
+
+  #anuncie-de-forma-gratuita {
+    font-size: 60px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    letter-spacing: -0.07em;
+    color: #8804B0 ;
+  }
+
+  #sobre-empresa {
+    font-size: 60px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    letter-spacing: -0.07em;
+    color: #8804B0 ;
+  }
+
+  .servicos {
+    color: #8804b0;
+    font-size: 27px;
+  }
+
+  .servicos-2 {
+    font-size: 16px;
+    margin-top: -15px;
+  }
+
+  .servicos-3 {
+    color: #8804b0;
+    font-size: 30px;
+    margin-top: -50px;
+  }
+
+  .funcionamos {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: -3px;
+    font-weight: 1000;
+  }
+
+  .funcionamos-2 {
+    color: white;
+    font-size: 19px;
+    margin-top: -15px;
+  }
+
+  #mapa {
+    margin-left: -40px;
+    margin-top: 90px;
+    width: 147%;
+  }
+
+  /************ Navegar pelas páginas ******************/
+
+  #eventos-de-forma-facil {
+    margin-bottom: 10%;
+  }
+
+  #multiplas-plataformas {
+    margin-bottom: 10%;
+  }
+}
+
+/* Extra large devices (Descktops mais largos, com 1200px para cima) */
+@media (min-width: 1200px) {
+  /**************** Barra de navegação ************************/
+  nav.navbar-transparente {
+    margin-left: -60px;
+  }
+
+  nav.navbar-transparente-2 {
+    margin-left: -60px;
+  }
+
+  .entre-logo-botao {
+    padding-right: 530px;
+  }
+
+  /******************* Setas da capa **********************/
+  .seta-home {
+    height: 50px;
+    margin: 225px -30px 0px -105px;
+  }
+
+  .seta-home-2 {
+    height: 50px;
+    margin: 225px -10px 0px -60px;
+  }
+
+  /***************** Capa 1 **************************/
+  #home #capa1 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa1 h1 {
+    margin-top: -45px;
+    font-size: 6em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+  }
+
+  #home #capa1 p {
+    font-size: 1em;
+    margin-top: -40px;
+    margin-bottom: 30px;
+  }
+
+  #ajuste-tamanho-lg-1 {
+    width: 317px;
+    margin-top: 10px;
+  }
+
+  /***************** Capa 2 **************************/
+  #home #capa2 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa2 h1 {
+    margin-top: -60px;
+    font-size: 5.1em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+  }
+
+  #home #capa2 p {
+    font-size: 1em;
+    margin-top: -35px;
+    margin-bottom: 25px;
+  }
+
+  #ajuste-tamanho-lg-2 {
+    width: 500px;
+    margin-top: 0px;
+    margin-left: -100px;
+  }
+
+  /***************** Capa 3 **************************/
+  #home #capa3 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa3 h1 {
+    margin-top: -10px;
+    font-size: 5.4em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+  }
+
+  #home #capa3 p {
+    font-size: 1em;
+    margin-top: -35px;
+    margin-bottom: 30px;
+  }
+
+  #ajuste-tamanho-lg-3 {
+    width: 580px;
+    margin-top: -140px;
+    margin-left: -25px;
+  }
+
+  /***************** Capa 4 **************************/
+  #home #capa4 {
+    color: white;
+    margin-left: 10px;
+  }
+
+  #home #capa4 h1 {
+    margin-top: -45px;
+    font-size: 5.7em;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+  }
+
+  #home #capa4 p {
+    font-size: 1em;
+    margin-top: -40px;
+    margin-bottom: 30px;
+  }
+
+  #ajuste-tamanho-lg-4 {
+    width: 407.5px;
+    margin-top: 10px;
+  }
+
+  /***************** Capa Categoria **************************/
+
+  #capa-categoria {
+    margin: auto;
+    margin-top: -150px;
+    background: white;
+    padding: 15px;
+    color: white;
+    min-width: 70%;
+  }
+
+  #capa-categoria-2 {
+    margin-top: 128px;
+    margin-bottom: -30px;
+    background: white;
+    color: #5420b4;
+    font-size: 25px;
+  }
+
+  /****************** Eventos principais *********************/
+  .titulo-eventos {
+    margin: 10px 0 -30px -20px;
+    font-size: 40px;
+  }
+
+  .titulo-eventos2 {
+    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-top: 80px;
+    font-size: 38px;
+  }
+
+  .titulo-eventos3 {
+    margin-bottom: -30px;
+    margin-left: -20px;
+    margin-top: 20px;
+    font-size: 38px;
+  }
+
+  #largura {
+    width: 90%;
+    margin: auto;
+  }
+
+  /**************** Conteúdo Sobre *********************/
+  #altura-primeiro-item {
+    margin-top: 100px;
+  }
+
+  .titulo-1 {
+    font-size: 60px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+
+  .titulo-desenvolvedores {
+    font-size: 43px;
+    padding-bottom: 15px;
+    margin-left: 5px;
+    margin-top: 30px;
+  }
+
+  #sobre h2 {
+    font-size: 27px;
+  }
+
+  #sobre p {
+    font-size: 14.4px;
+  }
+
+  #imagem-eventos-1 {
+    width: 210px;
+    margin-left: 70px;
+  }
+
+  #imagem-eventos-2 {
+    width: 210px;
+    margin-left: 60px;
+  }
+
+  #imagem-eventos-3 {
+    width: 210px;
+    margin-left: 59px;
+  }
+
+  #imagem-2 {
+    width: 1200px;
+    margin-left: -76px;
+  }
+
+  #imagem-3 {
+    width: 64.5%;
+    margin-left: 180px;
+  }
+
+  #imagem-4 {
+    width: 19%;
+    margin-left: 440px;
+    margin-top: 43.5px;
+    margin-bottom: 45px;
+  }
+
+  #imagem-5 {
+    width: 60.8%;
+    margin-left: 200px;
+    margin-top: 61.5px;
+    margin-bottom: 55px;
+  }
+
+  .altura-seta {
+    padding-top: 175px;
+    padding-left: 10px;
+  }
+
+  #seta-eventos-1 {
+    margin-left: 15px;
+  }
+
+  #seta-eventos-2 {
+    margin-left: 0px;
+  }
+
+  #seta-eventos-3 {
+    margin-left: 0px;
+  }
+
+  .texto-ajuda {
+    font-size: 22px;
+    margin-top: 20px;
+    margin-right: -60px;
+    margin-left: 70px;
+  }
+
+  .texto-ajuda-1 {
+    margin-top: -140px;
+    display: block;
+  }
+
+  .numero {
+    display: block;
+    font-size: 95px;
+    color: rgb(96, 33, 212);
+    margin-left: -60px;
+    margin-top: 30px;
+  }
+
+  /*************** Cards ***************/
+
+  .espacamento {
+    margin-left: -35px;
+  }
+
+  .cartao h4 {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .cartao h6 {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .cartao p {
+    margin-left: -10px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .cartao a {
+    margin: auto;
+  }
+
+  .cartao-criar a {
+    margin: auto;
+  }
+
+  .cartao {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    height: 330px;
+    margin-bottom: 25px;
+  }
+
+  .cartao-criar {
+    display: block;
+    text-align: center;
+    padding: 30px;
+    height: 330px;
+    margin-bottom: 25px;
+    margin-top: 0px;
+  }
+
+  .tamanho-imagem {
+    width: 100%;
+    display: block;
+    margin: auto;
+    max-height: 150px;
+  }
+
+  .tamanho-imagens {
+    width: 600px;
+  }
+
+  .card-imagem {
+    width: 100%;
+    height: 140px;
+  }
+
+  .cartao-eventos {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 5px;
+    height: 330px;
+  }
+
+  .cartao-eventos p {
+    padding: 5px;
+  }
+
+  /************* Tipografia ********************/
+
+  @font-face {
+    font-family: Sunday Morning;
+    src: url("../fontes/Sunday Morning.ttf");
+  }
+
+  .dicacertaServicos {
+    font-family: Sunday Morning;
+    font-size: 80px;
+    color: #8804b0;
+  }
+
+  #anuncie-de-forma-gratuita {
+    font-size: 60px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    letter-spacing: -0.07em;
+    color: #8804B0 ;
+  }
+
+  #sobre-empresa {
+    font-size: 60px;
+    padding-bottom: 15px;
+    margin-left: -4px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    letter-spacing: -0.07em;
+    color: #8804B0 ;
+  }
+
+  .servicos {
+    color: #8804b0;
+    font-size: 30px;
+  }
+
+  .servicos-2 {
+    font-size: 16px;
+    margin-top: -15px;
+  }
+
+  .servicos-3 {
+    color: #8804b0;
+    font-size: 30px;
+    margin-top: -50px;
+  }
+
+  .funcionamos {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: -3px;
+    font-weight: 1000;
+  }
+
+  .funcionamos-2 {
+    color: white;
+    font-size: 19px;
+    margin-top: -15px;
+  }
+
+
+  /************ Navegar pelas páginas ******************/
+
+  #eventos-de-forma-facil {
+    margin-bottom: 10%;
+  }
+
+  #multiplas-plataformas {
+    margin-bottom: 10%;
+  }
+
+}
