@@ -205,7 +205,7 @@ footer ul li a#github {
 @media (max-width: 399.98px) {
   /**************** Barra de navegação ************************/
   #nav-principal {
-    margin-left: 89%;
+    margin-left: 72%;
     margin-right: 20px;
   }
 
@@ -355,7 +355,7 @@ footer ul li a#github {
   }
 
   .titulo-eventos {
-    margin-bottom: 0px;
+    margin-bottom: -40px;
     margin-left: -20px;
     margin-top: 0px;
     font-size: 33px;
@@ -595,7 +595,7 @@ footer ul li a#github {
 @media (min-width: 400px) and (max-width: 477.98px) {
   /**************** Barra de navegação ************************/
   #nav-principal {
-    margin-left: 89%;
+    margin-left: 72%;
     margin-right: 20px;
   }
 
@@ -749,7 +749,7 @@ footer ul li a#github {
   }
 
   .titulo-eventos {
-    margin-bottom: 0px;
+    margin-bottom: -20px;
     margin-left: -20px;
     margin-top: 0px;
     font-size: 33px;
@@ -993,7 +993,7 @@ footer ul li a#github {
 @media (min-width: 478px) and (max-width: 575.98px) {
   /**************** Barra de navegação ************************/
   #nav-principal {
-    margin-left: 89%;
+    margin-left: 75%;
     margin-right: 20px;
   }
 
@@ -1142,7 +1142,7 @@ footer ul li a#github {
   }
 
   .titulo-eventos {
-    margin-bottom: 0px;
+    margin-bottom: -30px;
     margin-left: -20px;
     margin-top: 0px;
     font-size: 33px;
@@ -1389,7 +1389,7 @@ footer ul li a#github {
   /**************** Barra de navegação ************************/
 
   #nav-principal {
-    margin-left: 91%;
+    margin-left: 82%;
   }
 
   nav.navbar-transparente {
@@ -1542,7 +1542,7 @@ footer ul li a#github {
   }
 
   .titulo-eventos {
-    margin-bottom: 0px;
+    margin-bottom: -30px;
     margin-left: -20px;
     margin-top: 0px;
     font-size: 45px;
@@ -1911,7 +1911,7 @@ footer ul li a#github {
   }
 
   .titulo-eventos {
-    margin-bottom: -30px;
+    margin-bottom: -50px;
     margin-left: -20px;
     margin-top: 10px;
     font-size: 40px;
@@ -2374,7 +2374,7 @@ footer ul li a#github {
   }
 
   .titulo-eventos {
-    margin-bottom: -30px;
+    margin-bottom: -50px;
     margin-left: -20px;
     margin-top: 10px;
     font-size: 40px;
@@ -2837,8 +2837,8 @@ footer ul li a#github {
 
   /****************** Eventos principais *********************/
   .titulo-eventos {
-    margin: 10px 0 -10px -20px;
-    font-size: 55px;
+    margin: 10px 0 -60px -20px;
+    font-size: 45px;
   }
 
   .titulo-eventos2 {
