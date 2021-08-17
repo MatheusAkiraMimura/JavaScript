@@ -71,9 +71,9 @@ const criarRow = (cliente, index) => {
     const novaRow = document.createElement('tr')
     novaRow.innerHTML = `
         <td>${cliente.nome}</td>
-        <td>${cliente.email}</td>
-        <td>${cliente.celular}</td>
-        <td>${cliente.cidade}</td>
+        <td class="esconder">${cliente.email}</td>
+        <td class="esconder2">${cliente.celular}</td>
+        <td class="esconder3">${cliente.cidade}</td>
         <td>
             <button type="button" class="button green" id="edit-${index}">Editar</button>
             <button type="button" class="button red" id="delete-${index}" >Excluir</button>
