@@ -1,145 +1,145 @@
 'use strict'
 
-const abrirModal = () => document.getElementById('modal')
+const openModal = () => document.getElementById('modal')
     .classList.add('active')
 
-const fecharModal = () => {
-    limparArquivos()//Criado na linha 42
+const closeModal = () => {
+    clearFields()
     document.getElementById('modal').classList.remove('active')
 }
 
 
-const getLocalStorage = () => JSON.parse/*Transforma a String em JSON novamente*/(localStorage.getItem('db_cliente'))/*Vê o que está no localStorage */ ?? []/*Para evitar erro, caso o localStorage esteja vazio ou nulo*/
-const setLocalStorage = (dbCliente) => localStorage.setItem/*Manda de volta para o banco*/("db_cliente", JSON.stringify/*Transforma o objeto em string, fazendo o DB funcionar*/(dbCliente)) //db_cliente é a key, da localStorage e o valor contido na JSON.stringify é o value.
+const getLocalStorage = () => JSON.parse(localStorage.getItem('db_client')) ?? []
+const setLocalStorage = (dbClient) => localStorage.setItem("db_client", JSON.stringify(dbClient))
 
 // CRUD - create read update delete
-const deleteCliente = (indice) => {
-    const dbCliente = vizualizarCliente()
-    dbCliente.splice(indice, 1) //A partir do indice, vai excluir ele mesmo
-    setLocalStorage(dbCliente)
+const deleteClient = (index) => {
+    const dbClient = readClient()
+    dbClient.splice(index, 1)
+    setLocalStorage(dbClient)
 }
 
-const updateCliente = (indice, cliente) => {
-    const dbCliente = vizualizarCliente()
-    dbCliente[indice] = cliente //indice, indica qual a posição, para assim saber qual cliente que deve receber o update
-    setLocalStorage(dbCliente) //Envia para o banco dbCliente
+const updateClient = (index, client) => {
+    const dbClient = readClient()
+    dbClient[index] = client
+    setLocalStorage(dbClient)
 }
 
-const vizualizarCliente = () => getLocalStorage() //Função para apenas ver os clientes do localStorage
+const readClient = () => getLocalStorage()
 
-const criarCliente = (cliente) => {
-    const dbCliente = getLocalStorage() //Para trazer os clientes do localStorage
-    dbCliente.push (cliente) //push, adiciona mais um em cliente, com base nos dados vindos da const getLocalstorage
-    setLocalStorage(dbCliente) //Para enviar os clientes ao localStorage
+const createClient = (client) => {
+    const dbClient = getLocalStorage()
+    dbClient.push (client)
+    setLocalStorage(dbClient)
 }
 
-const arquivosValidos = () => { 
-    return document.getElementById('form').reportValidity() //Verifica se os campos estão preenchidos
+const isValidFields = () => {
+    return document.getElementById('form').reportValidity()
 }
 
 //Interação com o layout
 
-const limparArquivos = () => {
-    const arquivos = document.querySelectorAll('.modal-field')//Ele vai trazer um array com todos os campos que ele encontrar
-    arquivos.forEach(field => field.value = "")//forEach, vai varrer campo por campo, no fim ele iguala a vazio para zerar os campos
-    document.getElementById('nome').dataset.indice = 'new'
+const clearFields = () => {
+    const fields = document.querySelectorAll('.modal-field')
+    fields.forEach(field => field.value = "")
+    document.getElementById('nome').dataset.index = 'new'
 }
 
-const salvarCliente = () => {
+const saveClient = () => {
     debugger
-    if (arquivosValidos()) { //Verifica se os campos estão preenchidos
-        const cliente = {
+    if (isValidFields()) {
+        const client = {
             nome: document.getElementById('nome').value,
             email: document.getElementById('email').value,
             celular: document.getElementById('celular').value,
             cidade: document.getElementById('cidade').value
         }
-        const indice = document.getElementById('nome').dataset.indice //Diferenciando os botões de salvar, para subitituir ao editar, e não criar um novo.
-        if (indice == 'new') {
-            criarCliente(cliente)
-            updateTabela()
-            fecharModal()
+        const index = document.getElementById('nome').dataset.index
+        if (index == 'new') {
+            createClient(client)
+            updateTable()
+            closeModal()
         } else {
-            updateCliente(indice, cliente)
-            updateTabela()
-            fecharModal()
+            updateClient(index, client)
+            updateTable()
+            closeModal()
         }
     }
 }
 
-const criarLinha = (cliente, indice) => {
-    const novaRow = document.createElement('tr')
-    novaRow.innerHTML = `
-        <td>${cliente.nome}</td>
-        <td class="esconder">${cliente.email}</td>
-        <td class="esconder2">${cliente.celular}</td>
-        <td class="esconder3">${cliente.cidade}</td>
+const createRow = (client, index) => {
+    const newRow = document.createElement('tr')
+    newRow.innerHTML = `
+        <td>${client.nome}</td>
+        <td>${client.email}</td>
+        <td>${client.celular}</td>
+        <td>${client.cidade}</td>
         <td>
-            <button type="button" class="button green" id="editar-${indice}">Editar</button>
-            <button type="button" class="button red" id="delete-${indice}" >Excluir</button>
+            <button type="button" class="button green" id="edit-${index}">Editar</button>
+            <button type="button" class="button red" id="delete-${index}" >Excluir</button>
         </td>
     `
-    document.querySelector('#tabelaCliente>tbody').appendChild(novaRow)//
+    document.querySelector('#tableClient>tbody').appendChild(newRow)
 }
 
-const limparTabela = () => {
-    const rows = document.querySelectorAll('#tabelaCliente>tbody tr')//Seleciona os arrays com tr
-    rows.forEach(row => row.parentNode.removeChild(row))//Após pegar cada uma das linhas com o forEach, as exclue 
+const clearTable = () => {
+    const rows = document.querySelectorAll('#tableClient>tbody tr')
+    rows.forEach(row => row.parentNode.removeChild(row))
 }
 
-const updateTabela = () => {
-    const dbCliente = vizualizarCliente()
-    limparTabela()//Para não duplicar os dados
-    dbCliente.forEach(criarLinha)//Envia os dados para a função criarLinha
+const updateTable = () => {
+    const dbClient = readClient()
+    clearTable()
+    dbClient.forEach(createRow)
 }
 
-const preencher = (cliente) => {
-    document.getElementById('nome').value = cliente.nome
-    document.getElementById('email').value = cliente.email
-    document.getElementById('celular').value = cliente.celular
-    document.getElementById('cidade').value = cliente.cidade
-    document.getElementById('nome').dataset.indice = cliente.indice //Para mudar de "new" para 0, 1, 2 ....
+const fillFields = (client) => {
+    document.getElementById('nome').value = client.nome
+    document.getElementById('email').value = client.email
+    document.getElementById('celular').value = client.celular
+    document.getElementById('cidade').value = client.cidade
+    document.getElementById('nome').dataset.index = client.index
 }
 
-const editarCliente = (indice) => {
-    const cliente = vizualizarCliente()[indice]
-    cliente.indice = indice //Faz com que o cliente tenha um indice, ao enviar para preencher
-    preencher(cliente)
-    abrirModal()
+const editClient = (index) => {
+    const client = readClient()[index]
+    client.index = index
+    fillFields(client)
+    openModal()
 }
 
-const editarDeletar = (evento) => {
-    if (evento.target.type == 'button') { //Se o lugar clicado for button, da prosseguimento
+const editDelete = (event) => {
+    if (event.target.type == 'button') {
 
-        const [acao, indice] = evento.target.id.split('-')//antes do "-" fica a ação e depois fica o ID. 
+        const [action, index] = event.target.id.split('-')
 
-        if (acao == 'editar') {
-            editarCliente(indice)
+        if (action == 'edit') {
+            editClient(index)
         } else {
-            const cliente = vizualizarCliente()[indice]
-            const resposta = confirm(`Deseja realmente excluir o cliente ${cliente.nome}?`)
-            if (resposta) {
-                deleteCliente(indice)
-                updateTabela()
+            const client = readClient()[index]
+            const response = confirm(`Deseja realmente excluir o cliente ${client.nome}`)
+            if (response) {
+                deleteClient(index)
+                updateTable()
             }
         }
     }
 }
 
-updateTabela()
+updateTable()
 
 // Eventos
 document.getElementById('cadastrarCliente')
-    .addEventListener('click', abrirModal)
+    .addEventListener('click', openModal)
 
 document.getElementById('modalClose')
-    .addEventListener('click', fecharModal)
+    .addEventListener('click', closeModal)
 
-document.getElementById('salvar') //Quando clicar em salvar
-    .addEventListener('click', salvarCliente) //Aciona a função, salvarCliente
+document.getElementById('salvar')
+    .addEventListener('click', saveClient)
 
-document.querySelector('#tabelaCliente>tbody')
-    .addEventListener('click', editarDeletar)
+document.querySelector('#tableClient>tbody')
+    .addEventListener('click', editDelete)
 
 document.getElementById('cancelar')
-    .addEventListener('click', fecharModal)
+    .addEventListener('click', closeModal)
