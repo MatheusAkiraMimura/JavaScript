@@ -36,6 +36,12 @@ nav {
     padding: 50px 60px 0 60px;
 }
 
+nav h2 {
+    font-size: 50px;
+    background: none;
+    color: rgb(230, 243, 255);
+}
+
 nav li {
     list-style: none;
     display: inline-block;
@@ -49,8 +55,14 @@ nav li span {
 
 li a {
     padding: 5px;
-    background-color: #fff;
     text-decoration: none;;
+}
+
+li a:hover {
+    padding: 5px;
+    text-decoration: none;;
+    color: rgb(217, 92, 255);
+    background-color: rgba(238, 238, 238, 0.6);
 }
 
 .cart ion-icon {
@@ -90,6 +102,7 @@ li a {
     opacity: 0;
     cursor: pointer;
     text-align: center;
+    color: rgb(255, 255, 255);
 }
 
 .image:hover .cart1,
@@ -100,6 +113,14 @@ li a {
     opacity: 1;
     padding: 10px;
     text-decoration: none;
+}
+
+div .image {
+    margin-bottom: 30px;
+}
+
+.centralizar {
+    text-align: center;
 }
 
 /* ----------------- CART PAGE --------------- */
@@ -156,7 +177,6 @@ li a {
 .product {
     width: 45%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     padding: 10px 0;
     border-bottom: 1px solid lightgray;
@@ -175,6 +195,7 @@ li a {
 
 .products img {
     width: 75px;
+    margin-right: 10px;
 }
 
 .basketTotalContainer {

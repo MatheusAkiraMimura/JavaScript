@@ -1,27 +1,27 @@
-let carts = document.querySelectorAll('.add-cart');
+let carts = document.getElementsByClassName('add-cart');
 
 let products = [ 
     {
-        name: "grey Tshirt ",
-        tag: "greytshirt",
+        name: "Bolo De Creme",
+        tag: "bolodecreme",
         price: 45,
         inCart: 0
     },
     {
-        name: "Grey Hoddie",
-        tag: "greyhoddie",
+        name: "Bolo De Chocolate",
+        tag: "bolodechocolate",
         price: 55,
         inCart: 0
     },
     {
-        name: "Black Tshirt",
-        tag: "blacktshirt",
+        name: "Bolo De Limao",
+        tag: "bolodelimao",
         price: 50,
         inCart: 0
     },
     {
-        name: "Black Hoddie",
-        tag: "blackhoddie",
+        name: "Bolo De Morango",
+        tag: "bolodemorango",
         price: 67,
         inCart: 0
     }
