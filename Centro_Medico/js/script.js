@@ -35,7 +35,10 @@ function medOn () {
                         <p style="font-size: 1.8rem; text-align: left; padding-left: 0.2rem; padding-top: 1rem; "><b>Senha:</b> </p>
                         <input type="password" placeholder="Digite sua senha" class="box" id="senha"  required>
             
-                        <input type="submit" value="ENTRAR" class="botao" style="width:50%; font-size: 2rem;">
+                        <input type="submit" value="ENTRAR" class="botao" style="width:50%; font-size: 2rem; display:none;">
+
+                        <a href="medico.html" class="botao" style="width:50%; font-size: 2rem;">Entrar</a>
+                        
                     `;
 
     med.style = 'background-color: var(--green); color: #fff'
@@ -82,7 +85,9 @@ function outrosOn () {
                         <p style="font-size: 1.8rem; text-align: left; padding-left: 0.2rem; padding-top: 1rem; "><b>Senha:</b> </p>
                         <input type="password" placeholder="Digite sua senha" class="box" id="senha"  required>
             
-                        <input type="submit" value="ENTRAR" class="botao" style="width:50%; font-size: 2rem;">
+                        <input type="submit" value="ENTRAR" class="botao" style="width:50%; font-size: 2rem; display:none;">
+
+                        <a href="outros.html" class="botao" style="width:50%; font-size: 2rem;">Entrar</a>
 
                         
                     `;
