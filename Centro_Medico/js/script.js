@@ -10,3 +10,87 @@ window.onscroll = () =>{
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
 }
+
+const med = document.getElementById ( 'med' );
+const pac = document.getElementById ( 'pac' );
+const outros = document.getElementById ( 'outros' );
+const login = document.getElementById ( 'login' );
+const entrar = document.getElementById ( 'entrar' );
+const email = document.getElementById ( 'email' );
+const senha = document.getElementById ( 'senha' );
+const apagar = document.getElementById ( 'apagar' );
+
+
+
+function medOn () {
+    outros.style = ''
+    pac.style = ''
+    apagar.style ='display:none;'
+
+    entrar.innerHTML = 
+            `
+                        <p style="font-size: 1.8rem; text-align: left; padding-left: 0.2rem; padding-top: 1rem;  "><b>E-mail:</b> </p>
+                        <input type="email" placeholder="Digite seu e-mail" class="box" id="email" required>
+            
+                        <p style="font-size: 1.8rem; text-align: left; padding-left: 0.2rem; padding-top: 1rem; "><b>Senha:</b> </p>
+                        <input type="password" placeholder="Digite sua senha" class="box" id="senha"  required>
+            
+                        <input type="submit" value="ENTRAR" class="botao" style="width:50%; font-size: 2rem;">
+                    `;
+
+    med.style = 'background-color: var(--green); color: #fff'
+}
+
+function pacOn () {
+    outros.style = ''
+    med.style = ''
+    apagar.style ='display:none;'
+
+    entrar.innerHTML = 
+            `
+            
+            <div id="entrar">
+
+                        <p style="font-size: 1.8rem; text-align: left; padding-left: 0.2rem; padding-top: 1rem;  "><b>E-mail:</b> </p>
+                        <input type="email" placeholder="Digite seu e-mail" class="box" id="email" required>
+            
+                        <p style="font-size: 1.8rem; text-align: left; padding-left: 0.2rem; padding-top: 1rem; "><b>Senha:</b> </p>
+                        <input type="password" placeholder="Digite sua senha" class="box" id="senha"  required>
+            
+                        <input type="submit" value="ENTRAR" class="botao" style="width:50%; font-size: 2rem;">
+
+                        <p  style="font-size: 1.8rem; text-align: center; padding-left: 0.2rem; padding-top: 1rem; ">Não tem conta ainda?</p>
+
+                        <input type="submit" value="Cadastrar" class="botao">
+
+            </div>
+                    `;
+
+        pac.style = 'background-color: var(--green); color: #fff;'
+}
+
+function outrosOn () {
+    med.style = ''
+    pac.style = ''
+    apagar.style ='display:none;'
+
+    entrar.innerHTML = 
+            `
+                        <p style="font-size: 1.8rem; text-align: left; padding-left: 0.2rem; padding-top: 1rem;  "><b>E-mail:</b> </p>
+                        <input type="email" placeholder="Digite seu e-mail" class="box" id="email" required>
+            
+                        <p style="font-size: 1.8rem; text-align: left; padding-left: 0.2rem; padding-top: 1rem; "><b>Senha:</b> </p>
+                        <input type="password" placeholder="Digite sua senha" class="box" id="senha"  required>
+            
+                        <input type="submit" value="ENTRAR" class="botao" style="width:50%; font-size: 2rem;">
+
+                        
+                    `;
+
+    outros.style = 'background-color: var(--green); color: #fff'
+}
+
+
+med.addEventListener ( 'click', medOn );
+pac.addEventListener ( 'click', pacOn );
+outros.addEventListener ( 'click', outrosOn );
