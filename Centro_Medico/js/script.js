@@ -14,11 +14,9 @@ window.onscroll = () =>{
 const med = document.getElementById ( 'med' );
 const pac = document.getElementById ( 'pac' );
 const outros = document.getElementById ( 'outros' );
-const login = document.getElementById ( 'login' );
 const entrar = document.getElementById ( 'entrar' );
-const email = document.getElementById ( 'email' );
-const senha = document.getElementById ( 'senha' );
 const apagar = document.getElementById ( 'apagar' );
+
 
 
 
@@ -37,7 +35,7 @@ function medOn () {
             
                         <input type="submit" value="ENTRAR" class="botao" style="width:50%; font-size: 2rem; display:none;">
 
-                        <a href="medico.html" class="botao" style="width:50%; font-size: 2rem;">Entrar</a>
+                        <a href="outros.html" class="botao" style="width:60%; font-size: 2rem;">ENTRAR</a>
                         
                     `;
 
@@ -60,11 +58,11 @@ function pacOn () {
                         <p style="font-size: 1.8rem; text-align: left; padding-left: 0.2rem; padding-top: 1rem; "><b>Senha:</b> </p>
                         <input type="password" placeholder="Digite sua senha" class="box" id="senha"  required>
             
-                        <input type="submit" value="ENTRAR" class="botao" style="width:50%; font-size: 2rem;">
+                        <a href="agenda.html" class="botao" style="width:60%; font-size: 2rem;">ENTRAR</a>
 
                         <p  style="font-size: 1.8rem; text-align: center; padding-left: 0.2rem; padding-top: 1rem; ">Não tem conta ainda?</p>
 
-                        <input type="submit" value="Cadastrar" class="botao">
+                        <a href="cadastrar.html" class="botao" style="width:11rem; font-size: 2rem; padding-left: 1rem">Cadastrar</a>
 
             </div>
                     `;
@@ -87,7 +85,8 @@ function outrosOn () {
             
                         <input type="submit" value="ENTRAR" class="botao" style="width:50%; font-size: 2rem; display:none;">
 
-                        <a href="outros.html" class="botao" style="width:50%; font-size: 2rem;">Entrar</a>
+                        <a href="outros.html" class="botao" style="width:60%; font-size: 2rem;">ENTRAR</a>
+                      
 
                         
                     `;
