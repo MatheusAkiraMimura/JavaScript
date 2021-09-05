@@ -88,9 +88,9 @@ function consultaOnm1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -160,9 +160,9 @@ function consultaOn2m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -231,9 +231,9 @@ function consultaOn3m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -302,9 +302,9 @@ function consultaOn4m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -373,9 +373,9 @@ function consultaOn5m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -444,9 +444,9 @@ function consultaOn6m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -515,9 +515,9 @@ function consultaOn7m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -586,9 +586,9 @@ function consultaOn8m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -657,9 +657,9 @@ function consultaOn9m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -728,9 +728,9 @@ function consultaOn10m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -799,9 +799,9 @@ function consultaOn11m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -870,9 +870,9 @@ function consultaOn12m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -941,9 +941,9 @@ function consultaOn13m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -1012,9 +1012,9 @@ function consultaOn14m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -1083,9 +1083,9 @@ function consultaOn15m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -1154,9 +1154,9 @@ function consultaOn16m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -1225,9 +1225,9 @@ function consultaOn17m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -1296,9 +1296,9 @@ function consultaOn18m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -1367,9 +1367,9 @@ function consultaOn19m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -1438,9 +1438,9 @@ function consultaOn20m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -1509,9 +1509,9 @@ function consultaOn21m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -1580,9 +1580,9 @@ function consultaOn22m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -1651,9 +1651,9 @@ function consultaOn23m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -1722,9 +1722,9 @@ function consultaOn24m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -1793,9 +1793,9 @@ function consultaOn25m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -1864,9 +1864,9 @@ function consultaOn26m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -1935,9 +1935,9 @@ function consultaOn27m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -2006,9 +2006,9 @@ function consultaOn28m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -2077,9 +2077,9 @@ function consultaOn29m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -2148,9 +2148,9 @@ function consultaOn30m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -2219,9 +2219,9 @@ function consultaOn31m1 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -2299,9 +2299,9 @@ function consultaOnm2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -2370,9 +2370,9 @@ function consultaOn2m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -2441,9 +2441,9 @@ function consultaOn3m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -2512,9 +2512,9 @@ function consultaOn4m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -2583,9 +2583,9 @@ function consultaOn5m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -2654,9 +2654,9 @@ function consultaOn6m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -2725,9 +2725,9 @@ function consultaOn7m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -2796,9 +2796,9 @@ function consultaOn8m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -2867,9 +2867,9 @@ function consultaOn9m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -2938,9 +2938,9 @@ function consultaOn10m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -3009,9 +3009,9 @@ function consultaOn11m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -3080,9 +3080,9 @@ function consultaOn12m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -3151,9 +3151,9 @@ function consultaOn13m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -3222,9 +3222,9 @@ function consultaOn14m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -3293,9 +3293,9 @@ function consultaOn15m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -3364,9 +3364,9 @@ function consultaOn16m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -3435,9 +3435,9 @@ function consultaOn17m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -3506,9 +3506,9 @@ function consultaOn18m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -3577,9 +3577,9 @@ function consultaOn19m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -3648,9 +3648,9 @@ function consultaOn20m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -3719,9 +3719,9 @@ function consultaOn21m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -3790,9 +3790,9 @@ function consultaOn22m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -3861,9 +3861,9 @@ function consultaOn23m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -3932,9 +3932,9 @@ function consultaOn24m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -4003,9 +4003,9 @@ function consultaOn25m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -4074,9 +4074,9 @@ function consultaOn26m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -4145,9 +4145,9 @@ function consultaOn27m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -4216,9 +4216,9 @@ function consultaOn28m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -4287,9 +4287,9 @@ function consultaOn29m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -4358,9 +4358,9 @@ function consultaOn30m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
@@ -4429,9 +4429,9 @@ function consultaOn31m2 () {
 
                 </p>
 
-                <p style="text-align: center; font-size: 3rem; "> <a href="../index.html" style = "color:green;"> Confirmar <a/>  
+                <p style="text-align: center; font-size: 3rem; "> <a href="index.html" style = "color:green;"> Confirmar <a/>  
 
-                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="../agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
+                <span style="font-size: 3rem; margin-left: 4rem;"> <a href="agenda.html" style = "color:red;"> Cancelar <a/>  </span> 
                 
                 </p> 
         </section>
