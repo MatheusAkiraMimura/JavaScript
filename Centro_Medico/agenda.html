@@ -36,9 +36,13 @@
 
     <!-- Fim da Seção header -->
 
+    <div id="aparecer"></div>
+
     <!-- Inicio da Seção Serviços -->
 
     <section class="servicos" id="servicos">
+
+        <div id="aparecer"></div>
 
 
         <div class="conteudo">
@@ -57,10 +61,10 @@
 
         <div class="conteudo">
 
-            <select class="serv" name="teste" onchange="javascript:mostraInfo(this);">
+            <select class="serv" id="consulta_tipo" name="tipo_consulta" onchange="javascript:mostraInfo(this);">
                 <option value="0" hidden>Selecionar</option>
                 <option value="1">Ortopedia</option>
-                <option value="2">Pilates</option>
+                <!--<option value="2">Pilates</option>-->
             </select>
 
         </div>
@@ -89,8 +93,8 @@
                     <span
                         style="width: 30rem; margin-right: -2rem; font-size: 1.6rem; color: var(--black); text-transform: none; padding: 1rem;">
                         <img src="img/doc-1.jpg" alt="" width="260rem">
-                        <h3 style="font-size: 2.5rem;">Taisa Figueiredo</h3>
-                        <p class="medico_tipo" style="font-size: 2rem">Ortopedia</p>
+                        <h3 style="font-size: 2.5rem;" id="nome">Taisa Figueiredo</h3>
+                        <p class="medico_tipo" style="font-size: 2rem" id="funcao">Ortopedia</p>
 
                     </span>
 
@@ -135,42 +139,42 @@
                         <span style="color:var(--green); ">Sua Consulta</span>
                     </h3>
 
-                    <select class="serv" name="teste" style="width: 8rem;  margin-bottom: 2rem;"
+                    <select class="serv" id="dia" style="width: 8rem;  margin-bottom: 2rem;"
                         onchange="javascript:mostraInfo(this);">
-                        <option value="01">01</option>
-                        <option value="02">02</option>
-                        <option value="03">03</option>
-                        <option value="04">04</option>
-                        <option value="05">05</option>
-                        <option value="06">06</option>
-                        <option value="07">07</option>
-                        <option value="08">08</option>
-                        <option value="09">09</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                        <option value="01">13</option>
-                        <option value="02">14</option>
-                        <option value="03">15</option>
-                        <option value="04">16</option>
-                        <option value="05">17</option>
-                        <option value="06">18</option>
-                        <option value="07">19</option>
-                        <option value="08">20</option>
-                        <option value="09">21</option>
-                        <option value="10">22</option>
-                        <option value="11">23</option>
-                        <option value="12">24</option>
-                        <option value="10">25</option>
-                        <option value="11">26</option>
-                        <option value="12">27</option>
-                        <option value="10">28</option>
-                        <option value="11">29</option>
-                        <option value="12">30</option>
-                        <option value="12">31</option>
+                        <option value="01" >01</option>
+                        <option value="02" >02</option>
+                        <option value="03" >03</option>
+                        <option value="04" >04</option>
+                        <option value="05" >05</option>
+                        <option value="06" >06</option>
+                        <option value="07" >07</option>
+                        <option value="08" >08</option>
+                        <option value="09" >09</option>
+                        <option value="10" >10</option>
+                        <option value="11" >11</option>
+                        <option value="12" >12</option>
+                        <option value="13" >13</option>
+                        <option value="14" >14</option>
+                        <option value="15" >15</option>
+                        <option value="16" >16</option>
+                        <option value="17" >17</option>
+                        <option value="18" >18</option>
+                        <option value="19" >19</option>
+                        <option value="20" >20</option>
+                        <option value="21" >21</option>
+                        <option value="22" >22</option>
+                        <option value="23" >23</option>
+                        <option value="24" >24</option>
+                        <option value="25" >25</option>
+                        <option value="26" >26</option>
+                        <option value="27" >27</option>
+                        <option value="28" >28</option>
+                        <option value="29" >29</option>
+                        <option value="30" >30</option>
+                        <option value="31" >31</option>
                     </select>
 
-                    <select class="serv" name="teste" style="width: 15rem;  margin-bottom: 2rem;"
+                    <select class="serv" id="mes" name="teste" style="width: 15rem;  margin-bottom: 2rem;"
                         onchange="javascript:mostraInfo(this);">
                         <option value="01">Janeiro</option>
                         <option value="02">Fevereiro</option>
@@ -186,7 +190,7 @@
                         <option value="12">Dezembro</option>
                     </select>
 
-                    <select class="serv" name="teste" style="width: 10rem; margin-bottom: 2rem;"
+                    <select class="serv" id="ano" name="teste" style="width: 10rem; margin-bottom: 2rem;"
                         onchange="javascript:mostraInfo(this);">
                         <option value="2021">2021</option>
                         <option value="2022">2022</option>
@@ -196,67 +200,67 @@
 
                     <div class="box-container">
 
-                        <div class="box">08:00</div>
+                        <div class="box" id="consultam1">08:00</div>
 
-                        <div class="box">08:20</div>
+                        <div class="box" id="consulta2m1">08:20</div>
 
-                        <div class="box">08:40 </div>
+                        <div class="box" id="consulta3m1">08:40 </div>
 
-                        <div class="box">09:00</div>
+                        <div class="box" id="consulta4m1">09:00</div>
 
-                        <div class="box">09:20</div>
+                        <div class="box" id="consulta5m1">09:20</div>
 
-                        <div class="box">09:40</div>
+                        <div class="box" id="consulta6m1">09:40</div>
 
-                        <div class="box">10:00 </div>
+                        <div class="box" id="consulta7m1">10:00 </div>
 
-                        <div class="box">10:20 </div>
+                        <div class="box" id="consulta8m1">10:20 </div>
 
-                        <div class="box">10:40 </div>
+                        <div class="box" id="consulta9m1"> 10:40 </div>
 
-                        <div class="box">11:00 </div>
+                        <div class="box" id="consulta10m1">11:00 </div>
 
-                        <div class="box">11:20 </div>
+                        <div class="box" id="consulta11m1">11:20 </div>
 
-                        <div class="box">11:40 </div>
+                        <div class="box" id="consulta12m1">11:40 </div>
 
-                        <div class="box">12:00</div>
+                        <div class="box" id="consulta13m1">12:00</div>
 
-                        <div class="box">12:20 </div>
+                        <div class="box" id="consulta14m1">12:20 </div>
 
-                        <div class="box">12:40 </div>
+                        <div class="box" id="consulta15m1">12:40 </div>
 
-                        <div class="box">13:00</div>
+                        <div class="box" id="consulta16m1">13:00</div>
 
-                        <div class="box">13:20 </div>
+                        <div class="box" id="consulta17m1">13:20 </div>
 
-                        <div class="box">13:40 </div>
+                        <div class="box" id="consulta18m1">13:40 </div>
 
-                        <div class="box">14:00 </div>
+                        <div class="box" id="consulta19m1">14:00 </div>
 
-                        <div class="box">14:20 </div>
+                        <div class="box" id="consulta20m1">14:20 </div>
 
-                        <div class="box">14:40 </div>
+                        <div class="box" id="consulta21m1">14:40 </div>
 
-                        <div class="box">15:00 </div>
+                        <div class="box" id="consulta22m1">15:00 </div>
 
-                        <div class="box">15:20 </div>
+                        <div class="box" id="consulta23m1">15:20 </div>
 
-                        <div class="box">15:40 </div>
+                        <div class="box" id="consulta24m1">15:40 </div>
 
-                        <div class="box">16:00 </div>
+                        <div class="box" id="consulta25m1">16:00 </div>
 
-                        <div class="box">16:20 </div>
+                        <div class="box" id="consulta26m1">16:20 </div>
 
-                        <div class="box">16:40 </div>
+                        <div class="box" id="consulta27m1">16:40 </div>
 
-                        <div class="box">17:00 </div>
+                        <div class="box" id="consulta28m1">17:00 </div>
 
-                        <div class="box">17:20 </div>
+                        <div class="box" id="consulta29m1">17:20 </div>
 
-                        <div class="box">17:40 </div>
+                        <div class="box" id="consulta30m1">17:40 </div>
 
-                        <div class="box">18:00 </div>
+                        <div class="box" id="consulta31m1">18:00 </div>
 
 
                     </div>
@@ -287,7 +291,7 @@
                     <span
                         style="width: 30rem; margin-right: -2rem; font-size: 1.6rem; color: var(--black); text-transform: none; padding: 1rem;">
                         <img src="img/doc-3.jpg" alt="" width="260rem">
-                        <h3 style="font-size: 2.5rem;">Lucas Camara Corrêa</h3>
+                        <h3 style="font-size: 2.5rem;" id="nome2">Lucas Camara Corrêa</h3>
                         <p class="medico_tipo" style="font-size: 2rem">Ortopedia</p>
 
                     </span>
@@ -393,67 +397,37 @@
 
                     <div class="box-container">
 
-                        <div class="box">08:00</div>
-
-                        <div class="box">08:20</div>
-
-                        <div class="box">08:40 </div>
-
-                        <div class="box">09:00</div>
-
-                        <div class="box">09:20</div>
-
-                        <div class="box">09:40</div>
-
-                        <div class="box">10:00 </div>
-
-                        <div class="box">10:20 </div>
-
-                        <div class="box">10:40 </div>
-
-                        <div class="box">11:00 </div>
-
-                        <div class="box">11:20 </div>
-
-                        <div class="box">11:40 </div>
-
-                        <div class="box">12:00</div>
-
-                        <div class="box">12:20 </div>
-
-                        <div class="box">12:40 </div>
-
-                        <div class="box">13:00</div>
-
-                        <div class="box">13:20 </div>
-
-                        <div class="box">13:40 </div>
-
-                        <div class="box">14:00 </div>
-
-                        <div class="box">14:20 </div>
-
-                        <div class="box">14:40 </div>
-
-                        <div class="box">15:00 </div>
-
-                        <div class="box">15:20 </div>
-
-                        <div class="box">15:40 </div>
-
-                        <div class="box">16:00 </div>
-
-                        <div class="box">16:20 </div>
-
-                        <div class="box">16:40 </div>
-
-                        <div class="box">17:00 </div>
-
-                        <div class="box">17:20 </div>
-
-                        <div class="box">17:40 </div>
-
-                        <div class="box">18:00 </div>
+                        <div class="box" id="consultam2">08:00</div>
+                        <div class="box" id="consulta2m2">08:20</div>
+                        <div class="box" id="consulta2m2">08:40 </div>
+                        <div class="box" id="consulta2m2">09:00</div>
+                        <div class="box" id="consulta2m2">09:20</div>
+                        <div class="box" id="consulta2m2">09:40</div>
+                        <div class="box" id="consulta2m2">10:00 </div>
+                        <div class="box" id="consulta2m2">10:20 </div>
+                        <div class="box" id="consulta2m2">10:40 </div>
+                        <div class="box" id="consulta2m2">11:00 </div>
+                        <div class="box" id="consulta2m2">11:20 </div>
+                        <div class="box" id="consulta2m2">11:40 </div>
+                        <div class="box" id="consulta2m2">12:00</div>
+                        <div class="box" id="consulta2m2">12:20 </div>
+                        <div class="box" id="consulta2m2">12:40 </div>
+                        <div class="box" id="consulta2m2">13:00</div>
+                        <div class="box" id="consulta2m2">13:20 </div>
+                        <div class="box" id="consulta2m2">13:40 </div>
+                        <div class="box" id="consulta2m2">14:00 </div>
+                        <div class="box" id="consulta2m2">14:20 </div>
+                        <div class="box" id="consulta2m2">14:40 </div>
+                        <div class="box" id="consulta2m2">15:00 </div>
+                        <div class="box" id="consulta2m2">15:20 </div>
+                        <div class="box" id="consulta2m2">15:40 </div>
+                        <div class="box" id="consulta2m2">16:00 </div>
+                        <div class="box" id="consulta2m2">16:20 </div>
+                        <div class="box" id="consulta2m2">16:40 </div>
+                        <div class="box" id="consulta2m2">17:00 </div>
+                        <div class="box" id="consulta2m2">17:20 </div>
+                        <div class="box" id="consulta2m2">17:40 </div>
+                        <div class="box" id="consulta2m2">18:00 </div>
 
 
                     </div>
@@ -464,7 +438,6 @@
             <!-- Fim Calendário-->
 
         </div>
-        >
 
     </section>
 
@@ -473,6 +446,7 @@
     <!-- Início da Seção agendamento 1  Pilates -->
 
     <section class="agenda" id="agenda3" style="margin-top: 0.1rem; display: none;">
+
         <h1 class="cabecalho"> 1º Opção de <span>Médico</span> </h1>
 
         <div class="row" id="medOp">
@@ -593,65 +567,35 @@
                     <div class="box-container">
 
                         <div class="box">08:00</div>
-
                         <div class="box">08:20</div>
-
                         <div class="box">08:40 </div>
-
                         <div class="box">09:00</div>
-
                         <div class="box">09:20</div>
-
                         <div class="box">09:40</div>
-
                         <div class="box">10:00 </div>
-
                         <div class="box">10:20 </div>
-
                         <div class="box">10:40 </div>
-
                         <div class="box">11:00 </div>
-
                         <div class="box">11:20 </div>
-
                         <div class="box">11:40 </div>
-
                         <div class="box">12:00</div>
-
                         <div class="box">12:20 </div>
-
                         <div class="box">12:40 </div>
-
                         <div class="box">13:00</div>
-
                         <div class="box">13:20 </div>
-
                         <div class="box">13:40 </div>
-
                         <div class="box">14:00 </div>
-
                         <div class="box">14:20 </div>
-
                         <div class="box">14:40 </div>
-
                         <div class="box">15:00 </div>
-
                         <div class="box">15:20 </div>
-
                         <div class="box">15:40 </div>
-
                         <div class="box">16:00 </div>
-
                         <div class="box">16:20 </div>
-
                         <div class="box">16:40 </div>
-
                         <div class="box">17:00 </div>
-
                         <div class="box">17:20 </div>
-
                         <div class="box">17:40 </div>
-
                         <div class="box">18:00 </div>
 
 
@@ -860,7 +804,6 @@
             <!-- Fim Calendário-->
 
         </div>
-        >
 
     </section>
 
