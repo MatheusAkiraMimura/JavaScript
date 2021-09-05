@@ -187,7 +187,7 @@ function consultaOn2m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta2m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -258,7 +258,7 @@ function consultaOn3m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta3m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -329,7 +329,7 @@ function consultaOn4m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta4m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -400,7 +400,7 @@ function consultaOn5m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta5m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -471,7 +471,7 @@ function consultaOn6m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta6m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -542,7 +542,7 @@ function consultaOn7m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta7m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -613,7 +613,7 @@ function consultaOn8m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta8m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -684,7 +684,7 @@ function consultaOn9m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta9m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -755,7 +755,7 @@ function consultaOn10m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta10m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -826,7 +826,7 @@ function consultaOn11m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta11m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -897,7 +897,7 @@ function consultaOn12m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta12m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -968,7 +968,7 @@ function consultaOn13m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta13m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -1039,7 +1039,7 @@ function consultaOn14m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta14m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -1110,7 +1110,7 @@ function consultaOn15m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta15m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -1181,7 +1181,7 @@ function consultaOn16m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta16m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -1252,7 +1252,7 @@ function consultaOn17m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta17m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -1323,7 +1323,7 @@ function consultaOn18m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta18m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -1394,7 +1394,7 @@ function consultaOn19m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta19m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -1465,7 +1465,7 @@ function consultaOn20m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta20m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -1536,7 +1536,7 @@ function consultaOn21m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta21m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -1607,7 +1607,7 @@ function consultaOn22m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta22m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -1678,7 +1678,7 @@ function consultaOn23m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta23m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -1749,7 +1749,7 @@ function consultaOn24m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta24m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -1820,7 +1820,7 @@ function consultaOn25m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta25m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -1891,7 +1891,7 @@ function consultaOn26m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta26m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -1962,7 +1962,7 @@ function consultaOn27m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta27m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -2033,7 +2033,7 @@ function consultaOn28m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta28m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -2104,7 +2104,7 @@ function consultaOn29m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta29m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -2175,7 +2175,7 @@ function consultaOn30m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta30m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -2246,7 +2246,7 @@ function consultaOn31m1 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta31m1.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -2326,7 +2326,7 @@ function consultaOnm2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consultam2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -2397,7 +2397,7 @@ function consultaOn2m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta2m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -2468,7 +2468,7 @@ function consultaOn3m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta3m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -2539,7 +2539,7 @@ function consultaOn4m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta4m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -2610,7 +2610,7 @@ function consultaOn5m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta5m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -2681,7 +2681,7 @@ function consultaOn6m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta6m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -2752,7 +2752,7 @@ function consultaOn7m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta7m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -2823,7 +2823,7 @@ function consultaOn8m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta8m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -2894,7 +2894,7 @@ function consultaOn9m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta9m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -2965,7 +2965,7 @@ function consultaOn10m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta10m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -3036,7 +3036,7 @@ function consultaOn11m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta11m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -3107,7 +3107,7 @@ function consultaOn12m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta12m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -3178,7 +3178,7 @@ function consultaOn13m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta13m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -3249,7 +3249,7 @@ function consultaOn14m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta14m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -3320,7 +3320,7 @@ function consultaOn15m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta15m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -3391,7 +3391,7 @@ function consultaOn16m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta16m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -3462,7 +3462,7 @@ function consultaOn17m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta17m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -3533,7 +3533,7 @@ function consultaOn18m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta18m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -3604,7 +3604,7 @@ function consultaOn19m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta19m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -3675,7 +3675,7 @@ function consultaOn20m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta20m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -3746,7 +3746,7 @@ function consultaOn21m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta21m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -3817,7 +3817,7 @@ function consultaOn22m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta22m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -3888,7 +3888,7 @@ function consultaOn23m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta23m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -3959,7 +3959,7 @@ function consultaOn24m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta24m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -4030,7 +4030,7 @@ function consultaOn25m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta25m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -4101,7 +4101,7 @@ function consultaOn26m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta26m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -4172,7 +4172,7 @@ function consultaOn27m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta27m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -4243,7 +4243,7 @@ function consultaOn28m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consult28m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -4314,7 +4314,7 @@ function consultaOn29m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta29m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -4385,7 +4385,7 @@ function consultaOn30m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta30m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
@@ -4456,7 +4456,7 @@ function consultaOn31m2 () {
         var select_tipo_consulta = document.getElementById("consulta_tipo");
 
         tipo_nome.innerHTML = nome2.innerHTML;
-        tipo_hora.innerHTML = consultam1.innerHTML;
+        tipo_hora.innerHTML = consulta31m2.innerHTML;
         tipo_dia.innerHTML = select_dia.options[select_dia.selectedIndex].innerHTML
         tipo_mes.innerHTML = select_mes.options[select_mes.selectedIndex].innerHTML
         tipo_ano.innerHTML = select_ano.options[select_ano.selectedIndex].innerHTML
