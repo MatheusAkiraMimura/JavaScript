@@ -195,6 +195,8 @@ function consultaOn2m1 () {
       
 }
 
+/* Médico 1 Ortopedia */
+
 function consultaOn3m1 () {
     aparecer.style = 'width: 99%; height: 100%; margin-top: 8rem; font-size: 3rem; background: #FFF;'
     aparecer.innerHTML = 
@@ -2257,11 +2259,7 @@ function consultaOn31m1 () {
 
 
 
-
-
-
-
-
+/*Medico 2 Ortopedia */
 
 function consultaOnm2 () {
     aparecer.style = 'width: 99%; height: 100%; margin-top: 8rem; font-size: 3rem; background: #FFF;'
@@ -4504,6 +4502,34 @@ consulta31m1.addEventListener ( 'click', consultaOn31m1 );
 
 consultam2.addEventListener ( 'click', consultaOnm2 );
 consulta2m2.addEventListener ( 'click', consultaOn2m2 );
-
+consulta3m2.addEventListener ( 'click', consultaOn3m2 );
+consulta4m2.addEventListener ( 'click', consultaOn4m2 );
+consulta5m2.addEventListener ( 'click', consultaOn5m2 );
+consulta6m2.addEventListener ( 'click', consultaOn6m2 );
+consulta7m2.addEventListener ( 'click', consultaOn7m2 );
+consulta8m2.addEventListener ( 'click', consultaOn8m2 );
+consulta9m2.addEventListener ( 'click', consultaOn9m2 );
+consulta10m2.addEventListener ( 'click', consultaOn10m2 );
+consulta11m2.addEventListener ( 'click', consultaOn11m2 );
+consulta12m2.addEventListener ( 'click', consultaOn12m2 );
+consulta13m2.addEventListener ( 'click', consultaOn13m2 );
+consulta14m2.addEventListener ( 'click', consultaOn14m2 );
+consulta15m2.addEventListener ( 'click', consultaOn15m2 );
+consulta16m2.addEventListener ( 'click', consultaOn16m2 );
+consulta17m2.addEventListener ( 'click', consultaOn17m2 );
+consulta18m2.addEventListener ( 'click', consultaOn18m2 );
+consulta19m2.addEventListener ( 'click', consultaOn19m2 );
+consulta20m2.addEventListener ( 'click', consultaOn20m2 );
+consulta21m2.addEventListener ( 'click', consultaOn21m2 );
+consulta22m2.addEventListener ( 'click', consultaOn22m2 );
+consulta23m2.addEventListener ( 'click', consultaOn23m2 );
+consulta24m2.addEventListener ( 'click', consultaOn24m2 );
+consulta25m2.addEventListener ( 'click', consultaOn25m2 );
+consulta26m2.addEventListener ( 'click', consultaOn26m2 );
+consulta27m2.addEventListener ( 'click', consultaOn27m2 );
+consulta28m2.addEventListener ( 'click', consultaOn28m2 );
+consulta29m2.addEventListener ( 'click', consultaOn29m2 );
+consulta30m2.addEventListener ( 'click', consultaOn30m2 );
+consulta31m2.addEventListener ( 'click', consultaOn31m2 );
 
 
