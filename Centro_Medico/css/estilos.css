@@ -252,6 +252,27 @@ section:nth-child(even) {
     padding: 1rem;
 }
 
+.sele_horario {
+    border: none; 
+    margin-top: 1rem;
+    margin-bottom: -1.8rem;
+    color: black;
+    width: 95%; 
+    height: 5rem; 
+    font-size: 2.4rem; 
+}
+
+.sele_convenio{
+    border: none; 
+    margin-top: 2rem;
+    margin-bottom: -1.8rem;
+    color: black;
+    width: 95%; 
+    height: 5rem; 
+    font-size: 2.4rem; 
+}
+
+
 .cadastro .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
@@ -273,11 +294,11 @@ section:nth-child(even) {
 
 .agenda .box-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
     gap:2rem;
 }
 
-.agenda .box-container .box {
+.agenda .box-container .horario1 {
     background:#fff;
     border-radius: .5rem;
     border: 2px solid black;
@@ -295,7 +316,20 @@ section:nth-child(even) {
     
 }
 
+.agenda .box-container2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+    gap:2rem;
+}
 
+.agenda .box-container2 .horario1 {
+    background:#fff;
+    border-radius: .5rem;
+    border: 2px solid black;
+    padding: 1rem;
+    text-align: center;
+    
+}
 
 
 .localizacao .row {
@@ -565,6 +599,60 @@ section:nth-child(even) {
 .imagem-login {
     width: 400px;
 }
+
+.consultas .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 30rem));
+    gap:2rem;
+}
+
+.consultas .box-container .box{
+    background:#fff;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    border:var(--border);
+    padding: 2.5rem;
+}
+
+.consultas .box-container .box h3{
+    color: var(--black);
+    font-size: 2.5rem;
+    margin-bottom: .5rem;
+}
+
+.consultas .box-container .box p{
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
+.btn_cancelar{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .9rem;
+    border: 2px solid rgb(185, 34, 34);
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    color: rgb(185, 34, 34);
+    cursor: pointer;
+    font-size: 1.7rem;
+    background: #fff;
+}
+
+
+.btn_cancelar:hover{
+    background: rgb(185, 34, 34);
+    color:#fff;
+}
+
+.horarios {
+    margin-top: 2rem; 
+    width:70rem;
+}
+
+
+
+
 /* media queries  */
 
 @media (max-width: 1315px) {

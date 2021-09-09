@@ -19,15 +19,19 @@
 
     <!-- header section starts  -->
 
+    
+    <!--Como colocar parágrafo-->
     <header class="header">
 
         <a href="index.html" class="logo"> <img src="img/cmc.png" class="logo_img"> Centro Médico Cupecê</a>
 
 
         <nav class="navbar">
-            <a href="index.html"><i class="fas fa-home" style="padding-right: 4px; font-size: 25px;"></i>Home</a>
+            <a href="agenda.html"><i class="fas fa-home" style="padding-right: 4px; font-size: 25px;"></i>Home</a>
+            <a href="consultas.html"><i class="far fa-calendar-alt" style="padding-right: 4px; font-size: 25px;"></i>Consultas</a>
             <a href="login.html"> <i class="fas fa-sign-in-alt"
                     style="padding-right: 4px; font-size: 25px;"></i>Sair</a>
+
         </nav>
 
         <div id="menu-botao" class="fas fa-bars"></div>
@@ -64,7 +68,7 @@
             <select class="serv" id="consulta_tipo" name="tipo_consulta" onchange="javascript:mostraInfo(this);">
                 <option value="0" hidden>Selecionar</option>
                 <option value="1">Ortopedia</option>
-                <!--<option value="2">Pilates</option>-->
+                <option value="2">Pilates</option>
             </select>
 
         </div>
@@ -93,7 +97,7 @@
                     <span
                         style="width: 30rem; margin-right: -2rem; font-size: 1.6rem; color: var(--black); text-transform: none; padding: 1rem;">
                         <img src="img/doc-1.jpg" alt="" width="260rem">
-                        <h3 style="font-size: 2.5rem;" id="nome">Taisa Figueiredo</h3>
+                        <h3 style="font-size: 2.5rem;" id="nome1">Taisa Figueiredo</h3>
                         <p class="medico_tipo" style="font-size: 2rem" id="funcao">Ortopedia</p>
 
                     </span>
@@ -135,12 +139,11 @@
 
                 <form action="">
 
-                    <h3 style="font-size: 3.5rem; text-align: center; margin-top: 1rem; margin-bottom: 1rem;">Agende a
+                    <h3 style="font-size: 3.5rem; text-align: center; margin-top: 0rem; margin-bottom: 1rem;">Agende a
                         <span style="color:var(--green); ">Sua Consulta</span>
                     </h3>
 
-                    <select class="serv" id="dia" style="width: 8rem;  margin-bottom: 2rem;"
-                        onchange="javascript:mostraInfo(this);">
+                    <select class="serv" id="dia" style="width: 8rem;  margin-bottom: 2rem;">
                         <option value="01" >01</option>
                         <option value="02" >02</option>
                         <option value="03" >03</option>
@@ -174,8 +177,7 @@
                         <option value="31" >31</option>
                     </select>
 
-                    <select class="serv" id="mes" name="teste" style="width: 15rem;  margin-bottom: 2rem;"
-                        onchange="javascript:mostraInfo(this);">
+                    <select class="serv" id="mes" name="teste" style="width: 15rem;  margin-bottom: 2rem;">
                         <option value="01">Janeiro</option>
                         <option value="02">Fevereiro</option>
                         <option value="03">Março</option>
@@ -190,80 +192,93 @@
                         <option value="12">Dezembro</option>
                     </select>
 
-                    <select class="serv" id="ano" name="teste" style="width: 10rem; margin-bottom: 2rem;"
-                        onchange="javascript:mostraInfo(this);">
+                    <select class="serv" id="ano" name="teste" style="width: 10rem; margin-bottom: 2rem;">
                         <option value="2021">2021</option>
                         <option value="2022">2022</option>
 
 
                     </select>
 
+                    <p class="sele_horario">Selecione o Horário</p>
+
                     <div class="box-container">
 
-                        <div class="box" id="consultam1">08:00</div>
+                        <div class="box" id="horario1"  style="cursor: pointer; ">08:00</div>
 
-                        <div class="box" id="consulta2m1">08:20</div>
+                        <div class="box" id="horario2" style="cursor: pointer; ">08:20</div>
 
-                        <div class="box" id="consulta3m1">08:40 </div>
+                        <div class="box" id="horario3" style="cursor: pointer; ">08:40 </div>
 
-                        <div class="box" id="consulta4m1">09:00</div>
+                        <div class="box" id="horario4" style="cursor: pointer; ">09:00</div>
 
-                        <div class="box" id="consulta5m1">09:20</div>
+                        <div class="box" id="horario5" style="cursor: pointer; ">09:20</div>
 
-                        <div class="box" id="consulta6m1">09:40</div>
+                        <div class="box" id="horario6" style="cursor: pointer; ">09:40</div>
 
-                        <div class="box" id="consulta7m1">10:00 </div>
+                        <div class="box" id="horario7" style="cursor: pointer; ">10:00 </div>
 
-                        <div class="box" id="consulta8m1">10:20 </div>
+                        <div class="box" id="horario8" style="cursor: pointer; ">10:20 </div>
 
-                        <div class="box" id="consulta9m1"> 10:40 </div>
+                        <div class="box" id="horario9" style="cursor: pointer; "> 10:40 </div>
 
-                        <div class="box" id="consulta10m1">11:00 </div>
+                        <div class="box" id="horario10" style="cursor: pointer; ;">11:00 </div>
 
-                        <div class="box" id="consulta11m1">11:20 </div>
+                        <div class="box" id="horario11" style="cursor: pointer; ">11:20 </div>
 
-                        <div class="box" id="consulta12m1">11:40 </div>
+                        <div class="box" id="horario12" style="cursor: pointer; ">11:40 </div>
 
-                        <div class="box" id="consulta13m1">12:00</div>
+                        <div class="box" id="horario13" style="cursor: pointer; ">12:00</div>
 
-                        <div class="box" id="consulta14m1">12:20 </div>
+                        <div class="box" id="horario14" style="cursor: pointer; ">12:20 </div>
 
-                        <div class="box" id="consulta15m1">12:40 </div>
+                        <div class="box" id="horario15" style="cursor: pointer; ">12:40 </div>
 
-                        <div class="box" id="consulta16m1">13:00</div>
+                        <div class="box" id="horario16" style="cursor: pointer; ">13:00</div>
 
-                        <div class="box" id="consulta17m1">13:20 </div>
+                        <div class="box" id="horario17" style="cursor: pointer; ">13:20 </div>
 
-                        <div class="box" id="consulta18m1">13:40 </div>
+                        <div class="box" id="horario18" style="cursor: pointer; ">13:40 </div>
 
-                        <div class="box" id="consulta19m1">14:00 </div>
+                        <div class="box" id="horario19" style="cursor: pointer; ">14:00 </div>
 
-                        <div class="box" id="consulta20m1">14:20 </div>
+                        <div class="box" id="horario20" style="cursor: pointer;">14:20 </div>
 
-                        <div class="box" id="consulta21m1">14:40 </div>
+                        <div class="box" id="horario21" style="cursor: pointer; ">14:40 </div>
 
-                        <div class="box" id="consulta22m1">15:00 </div>
+                        <div class="box" id="horario22" style="cursor: pointer; ">15:00 </div>
 
-                        <div class="box" id="consulta23m1">15:20 </div>
+                        <div class="box" id="horario23" style="cursor: pointer; ">15:20 </div>
 
-                        <div class="box" id="consulta24m1">15:40 </div>
+                        <div class="box" id="horario24" style="cursor: pointer; ">15:40 </div>
 
-                        <div class="box" id="consulta25m1">16:00 </div>
+                        <div class="box" id="horario25" style="cursor: pointer; ">16:00 </div>
 
-                        <div class="box" id="consulta26m1">16:20 </div>
+                        <div class="box" id="horario26" style="cursor: pointer; ">16:20 </div>
 
-                        <div class="box" id="consulta27m1">16:40 </div>
+                        <div class="box" id="horario27" style="cursor: pointer; ;">16:40 </div>
 
-                        <div class="box" id="consulta28m1">17:00 </div>
+                        <div class="box" id="horario28" style="cursor: pointer;">17:00 </div>
 
-                        <div class="box" id="consulta29m1">17:20 </div>
+                        <div class="box" id="horario29" style="cursor: pointer; ">17:20 </div>
 
-                        <div class="box" id="consulta30m1">17:40 </div>
+                        <div class="box" id="horario30" style="cursor: pointer; ">17:40 </div>
 
-                        <div class="box" id="consulta31m1">18:00 </div>
+                        <div class="box" id="horario31" style="cursor: pointer; ">18:00 </div>
 
 
                     </div>
+
+                    <p class="sele_convenio">Convênios Aceitos</p>
+
+                    <select class="serv" id="conv" name="conv" style="width: 80%; margin-bottom: 2rem;" required>
+                        <option hidden >Selecione o seu Convênio</option>
+                        <option value="bradesco">Bradesco</option>
+                        <option value="gama">Gama</option>
+                        <option value="santander">Santander</option>
+                    </select>
+
+                    <input class="botao" id="agenConsulta1" value="AGENDAR" style="font-size: 2.5rem; width: 16rem; padding: 1.5rem;">
+
                 </form>
 
             </div>
@@ -275,13 +290,12 @@
 
     <!-- Fim da Seção agendamento 1 Ortopedia -->
 
-    <!-- Início da Seção agendamento 2 Ortopedia -->
+    <!-- Início da Seção agendamento 2  Ortopedia -->
 
-    <section class="agenda" id="agenda2" style="margin-top: 3rem; display: none;">
-        
+    <section class="agenda" id="agenda2" style="margin-top: 0.1rem; display: none;">
         <h1 class="cabecalho"> 2º Opção de <span>Médico</span> </h1>
 
-        <div class="row">
+        <div class="row" id="medOp">
 
             <div class="row" style=" margin-top: 2rem; width:70rem;">
 
@@ -290,9 +304,9 @@
 
                     <span
                         style="width: 30rem; margin-right: -2rem; font-size: 1.6rem; color: var(--black); text-transform: none; padding: 1rem;">
-                        <img src="img/doc-3.jpg" alt="" width="260rem">
+                        <img src="img/doc-2.jpg" alt="" width="260rem">
                         <h3 style="font-size: 2.5rem;" id="nome2">Lucas Camara Corrêa</h3>
-                        <p class="medico_tipo" style="font-size: 2rem">Ortopedia</p>
+                        <p class="medico_tipo" style="font-size: 2rem" id="funcao">Ortopedia</p>
 
                     </span>
 
@@ -333,46 +347,45 @@
 
                 <form action="">
 
-                    <h3 style="font-size: 3.7rem; text-align: center; margin-top: 1rem;">Agende a <span
-                            style="color:var(--green); ">Sua Consulta</span></h3>
+                    <h3 style="font-size: 3.5rem; text-align: center; margin-top: 0rem; margin-bottom: 1rem;">Agende a
+                        <span style="color:var(--green); ">Sua Consulta</span>
+                    </h3>
 
-                    <select class="serv" name="teste" style="width: 8rem;  margin-bottom: 2rem;"
-                        onchange="javascript:mostraInfo(this);">
-                        <option value="01">01</option>
-                        <option value="02">02</option>
-                        <option value="03">03</option>
-                        <option value="04">04</option>
-                        <option value="05">05</option>
-                        <option value="06" selected>06</option>
-                        <option value="07">07</option>
-                        <option value="08">08</option>
-                        <option value="09">09</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                        <option value="01">13</option>
-                        <option value="02">14</option>
-                        <option value="03">15</option>
-                        <option value="04">16</option>
-                        <option value="05">17</option>
-                        <option value="06">18</option>
-                        <option value="07">19</option>
-                        <option value="08">20</option>
-                        <option value="09">21</option>
-                        <option value="10">22</option>
-                        <option value="11">23</option>
-                        <option value="12">24</option>
-                        <option value="10">25</option>
-                        <option value="11">26</option>
-                        <option value="12">27</option>
-                        <option value="10">28</option>
-                        <option value="11">29</option>
-                        <option value="12">30</option>
-                        <option value="12">31</option>
+                    <select class="serv" id="dia2" style="width: 8rem;  margin-bottom: 2rem;">
+                        <option value="01" >01</option>
+                        <option value="02" >02</option>
+                        <option value="03" >03</option>
+                        <option value="04" >04</option>
+                        <option value="05" >05</option>
+                        <option value="06" selected >06</option>
+                        <option value="07" >07</option>
+                        <option value="08" >08</option>
+                        <option value="09" >09</option>
+                        <option value="10" >10</option>
+                        <option value="11" >11</option>
+                        <option value="12" >12</option>
+                        <option value="13" >13</option>
+                        <option value="14" >14</option>
+                        <option value="15" >15</option>
+                        <option value="16" >16</option>
+                        <option value="17" >17</option>
+                        <option value="18" >18</option>
+                        <option value="19" >19</option>
+                        <option value="20" >20</option>
+                        <option value="21" >21</option>
+                        <option value="22" >22</option>
+                        <option value="23" >23</option>
+                        <option value="24" >24</option>
+                        <option value="25" >25</option>
+                        <option value="26" >26</option>
+                        <option value="27" >27</option>
+                        <option value="28" >28</option>
+                        <option value="29" >29</option>
+                        <option value="30" >30</option>
+                        <option value="31" >31</option>
                     </select>
 
-                    <select class="serv" name="teste" style="width: 15rem;  margin-bottom: 2rem;"
-                        onchange="javascript:mostraInfo(this);">
+                    <select class="serv" id="mes2" name="teste" style="width: 15rem;  margin-bottom: 2rem;">
                         <option value="01">Janeiro</option>
                         <option value="02">Fevereiro</option>
                         <option value="03">Março</option>
@@ -387,50 +400,93 @@
                         <option value="12">Dezembro</option>
                     </select>
 
-                    <select class="serv" name="teste" style="width: 10rem; margin-bottom: 2rem;"
-                        onchange="javascript:mostraInfo(this);">
+                    <select class="serv" id="ano2" name="teste" style="width: 10rem; margin-bottom: 2rem;">
                         <option value="2021">2021</option>
                         <option value="2022">2022</option>
 
 
                     </select>
 
+                    <p class="sele_horario">Selecione o Horário</p>
+
                     <div class="box-container">
 
-                        <div class="box" id="consultam2">08:00</div>
-                        <div class="box" id="consulta2m2">08:20</div>
-                        <div class="box" id="consulta3m2">08:40 </div>
-                        <div class="box" id="consulta4m2">09:00</div>
-                        <div class="box" id="consulta5m2">09:20</div>
-                        <div class="box" id="consulta6m2">09:40</div>
-                        <div class="box" id="consulta7m2">10:00 </div>
-                        <div class="box" id="consulta8m2">10:20 </div>
-                        <div class="box" id="consulta9m2">10:40 </div>
-                        <div class="box" id="consulta10m2">11:00 </div>
-                        <div class="box" id="consulta11m2">11:20 </div>
-                        <div class="box" id="consulta12m2">11:40 </div>
-                        <div class="box" id="consulta13m2">12:00</div>
-                        <div class="box" id="consulta14m2">12:20 </div>
-                        <div class="box" id="consulta15m2">12:40 </div>
-                        <div class="box" id="consulta16m2">13:00</div>
-                        <div class="box" id="consulta17m2">13:20 </div>
-                        <div class="box" id="consulta18m2">13:40 </div>
-                        <div class="box" id="consulta19m2">14:00 </div>
-                        <div class="box" id="consulta20m2">14:20 </div>
-                        <div class="box" id="consulta21m2">14:40 </div>
-                        <div class="box" id="consulta22m2">15:00 </div>
-                        <div class="box" id="consulta23m2">15:20 </div>
-                        <div class="box" id="consulta24m2">15:40 </div>
-                        <div class="box" id="consulta25m2">16:00 </div>
-                        <div class="box" id="consulta26m2">16:20 </div>
-                        <div class="box" id="consulta27m2">16:40 </div>
-                        <div class="box" id="consulta28m2">17:00 </div>
-                        <div class="box" id="consulta29m2">17:20 </div>
-                        <div class="box" id="consulta30m2">17:40 </div>
-                        <div class="box" id="consulta31m2">18:00 </div>
+                        <div class="box" id="horario1"  style="cursor: pointer; ">08:00</div>
+
+                        <div class="box" id="horario2" style="cursor: pointer; ">08:20</div>
+
+                        <div class="box" id="horario3" style="cursor: pointer; ">08:40 </div>
+
+                        <div class="box" id="horario4" style="cursor: pointer; ">09:00</div>
+
+                        <div class="box" id="horario5" style="cursor: pointer; ">09:20</div>
+
+                        <div class="box" id="horario6" style="cursor: pointer; ">09:40</div>
+
+                        <div class="box" id="horario7" style="cursor: pointer; ">10:00 </div>
+
+                        <div class="box" id="horario8" style="cursor: pointer; ">10:20 </div>
+
+                        <div class="box" id="horario9" style="cursor: pointer; "> 10:40 </div>
+
+                        <div class="box" id="horario10" style="cursor: pointer; ;">11:00 </div>
+
+                        <div class="box" id="horario11" style="cursor: pointer; ">11:20 </div>
+
+                        <div class="box" id="horario12" style="cursor: pointer; ">11:40 </div>
+
+                        <div class="box" id="horario13" style="cursor: pointer; ">12:00</div>
+
+                        <div class="box" id="horario14" style="cursor: pointer; ">12:20 </div>
+
+                        <div class="box" id="horario15" style="cursor: pointer; ">12:40 </div>
+
+                        <div class="box" id="horario16" style="cursor: pointer; ">13:00</div>
+
+                        <div class="box" id="horario17" style="cursor: pointer; ">13:20 </div>
+
+                        <div class="box" id="horario18" style="cursor: pointer; ">13:40 </div>
+
+                        <div class="box" id="horario19" style="cursor: pointer; ">14:00 </div>
+
+                        <div class="box" id="horario20" style="cursor: pointer;">14:20 </div>
+
+                        <div class="box" id="horario21" style="cursor: pointer; ">14:40 </div>
+
+                        <div class="box" id="horario22" style="cursor: pointer; ">15:00 </div>
+
+                        <div class="box" id="horario23" style="cursor: pointer; ">15:20 </div>
+
+                        <div class="box" id="horario24" style="cursor: pointer; ">15:40 </div>
+
+                        <div class="box" id="horario25" style="cursor: pointer; ">16:00 </div>
+
+                        <div class="box" id="horario26" style="cursor: pointer; ">16:20 </div>
+
+                        <div class="box" id="horario27" style="cursor: pointer; ;">16:40 </div>
+
+                        <div class="box" id="horario28" style="cursor: pointer;">17:00 </div>
+
+                        <div class="box" id="horario29" style="cursor: pointer; ">17:20 </div>
+
+                        <div class="box" id="horario30" style="cursor: pointer; ">17:40 </div>
+
+                        <div class="box" id="horario31" style="cursor: pointer; ">18:00 </div>
 
 
                     </div>
+
+                    <p class="sele_convenio">Convênios Aceitos</p>
+
+                    <select class="serv" id="conv2" name="conv" style="width: 80%; margin-bottom: 2rem;" required>
+                        <option hidden >Selecione o seu Convênio</option>
+                        <option value="bradesco">Bradesco</option>
+                        <option value="gama">Gama</option>
+                        <option value="santander">Santander</option>
+                    </select>
+
+                    <input class="botao" id="agenConsulta2" value="AGENDAR" style="font-size: 2.5rem; width: 16rem; padding: 1.5rem;">
+
                 </form>
 
             </div>
@@ -438,15 +494,13 @@
             <!-- Fim Calendário-->
 
         </div>
-
     </section>
 
-    <!-- Fim da Seção agendamento 2  Ortopedia -->
+    <!-- Fim da Seção agendamento 2 Ortopedia -->
 
     <!-- Início da Seção agendamento 1  Pilates -->
 
     <section class="agenda" id="agenda3" style="margin-top: 0.1rem; display: none;">
-
         <h1 class="cabecalho"> 1º Opção de <span>Médico</span> </h1>
 
         <div class="row" id="medOp">
@@ -458,9 +512,9 @@
 
                     <span
                         style="width: 30rem; margin-right: -2rem; font-size: 1.6rem; color: var(--black); text-transform: none; padding: 1rem;">
-                        <img src="img/doc-4.jpg" alt="" width="260rem">
-                        <h3 style="font-size: 2.5rem;">Raphael Martins</h3>
-                        <p class="medico_tipo" style="font-size: 2rem">Pilates</p>
+                        <img src="img/doc-5.jpg" alt="" width="260rem">
+                        <h3 style="font-size: 2.5rem;" id="nome3">André Miranda Pontes </h3>
+                        <p class="medico_tipo" style="font-size: 2rem" id="funcao">Pilates</p>
 
                     </span>
 
@@ -501,47 +555,45 @@
 
                 <form action="">
 
-                    <h3 style="font-size: 3.5rem; text-align: center; margin-top: 1rem; margin-bottom: 1rem;">Agende a
+                    <h3 style="font-size: 3.5rem; text-align: center; margin-top: 0rem; margin-bottom: 1rem;">Agende a
                         <span style="color:var(--green); ">Sua Consulta</span>
                     </h3>
 
-                    <select class="serv" name="teste" style="width: 8rem;  margin-bottom: 2rem;"
-                        onchange="javascript:mostraInfo(this);">
-                        <option value="01">01</option>
-                        <option value="02">02</option>
-                        <option value="03">03</option>
-                        <option value="04">04</option>
-                        <option value="05">05</option>
-                        <option value="06">06</option>
-                        <option value="07">07</option>
-                        <option value="08">08</option>
-                        <option value="09">09</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                        <option value="01">13</option>
-                        <option value="02">14</option>
-                        <option value="03">15</option>
-                        <option value="04">16</option>
-                        <option value="05">17</option>
-                        <option value="06">18</option>
-                        <option value="07">19</option>
-                        <option value="08">20</option>
-                        <option value="09">21</option>
-                        <option value="10">22</option>
-                        <option value="11">23</option>
-                        <option value="12">24</option>
-                        <option value="10">25</option>
-                        <option value="11">26</option>
-                        <option value="12">27</option>
-                        <option value="10">28</option>
-                        <option value="11">29</option>
-                        <option value="12">30</option>
-                        <option value="12">31</option>
+                    <select class="serv" id="dia3" style="width: 8rem;  margin-bottom: 2rem;">
+                        <option value="01" >01</option>
+                        <option value="02" >02</option>
+                        <option value="03" >03</option>
+                        <option value="04" >04</option>
+                        <option value="05" >05</option>
+                        <option value="06" selected >06</option>
+                        <option value="07" >07</option>
+                        <option value="08" >08</option>
+                        <option value="09" >09</option>
+                        <option value="10" >10</option>
+                        <option value="11" >11</option>
+                        <option value="12" >12</option>
+                        <option value="13" >13</option>
+                        <option value="14" >14</option>
+                        <option value="15" >15</option>
+                        <option value="16" >16</option>
+                        <option value="17" >17</option>
+                        <option value="18" >18</option>
+                        <option value="19" >19</option>
+                        <option value="20" >20</option>
+                        <option value="21" >21</option>
+                        <option value="22" >22</option>
+                        <option value="23" >23</option>
+                        <option value="24" >24</option>
+                        <option value="25" >25</option>
+                        <option value="26" >26</option>
+                        <option value="27" >27</option>
+                        <option value="28" >28</option>
+                        <option value="29" >29</option>
+                        <option value="30" >30</option>
+                        <option value="31" >31</option>
                     </select>
 
-                    <select class="serv" name="teste" style="width: 15rem;  margin-bottom: 2rem;"
-                        onchange="javascript:mostraInfo(this);">
+                    <select class="serv" id="mes3" name="teste" style="width: 15rem;  margin-bottom: 2rem;">
                         <option value="01">Janeiro</option>
                         <option value="02">Fevereiro</option>
                         <option value="03">Março</option>
@@ -556,50 +608,93 @@
                         <option value="12">Dezembro</option>
                     </select>
 
-                    <select class="serv" name="teste" style="width: 10rem; margin-bottom: 2rem;"
-                        onchange="javascript:mostraInfo(this);">
+                    <select class="serv" id="ano3" name="teste" style="width: 10rem; margin-bottom: 2rem;">
                         <option value="2021">2021</option>
                         <option value="2022">2022</option>
 
 
                     </select>
 
+                    <p class="sele_horario">Selecione o Horário</p>
+
                     <div class="box-container">
 
-                        <div class="box">08:00</div>
-                        <div class="box">08:20</div>
-                        <div class="box">08:40 </div>
-                        <div class="box">09:00</div>
-                        <div class="box">09:20</div>
-                        <div class="box">09:40</div>
-                        <div class="box">10:00 </div>
-                        <div class="box">10:20 </div>
-                        <div class="box">10:40 </div>
-                        <div class="box">11:00 </div>
-                        <div class="box">11:20 </div>
-                        <div class="box">11:40 </div>
-                        <div class="box">12:00</div>
-                        <div class="box">12:20 </div>
-                        <div class="box">12:40 </div>
-                        <div class="box">13:00</div>
-                        <div class="box">13:20 </div>
-                        <div class="box">13:40 </div>
-                        <div class="box">14:00 </div>
-                        <div class="box">14:20 </div>
-                        <div class="box">14:40 </div>
-                        <div class="box">15:00 </div>
-                        <div class="box">15:20 </div>
-                        <div class="box">15:40 </div>
-                        <div class="box">16:00 </div>
-                        <div class="box">16:20 </div>
-                        <div class="box">16:40 </div>
-                        <div class="box">17:00 </div>
-                        <div class="box">17:20 </div>
-                        <div class="box">17:40 </div>
-                        <div class="box">18:00 </div>
+                        <div class="box" id="horario1"  style="cursor: pointer; ">08:00</div>
+
+                        <div class="box" id="horario2" style="cursor: pointer; ">08:20</div>
+
+                        <div class="box" id="horario3" style="cursor: pointer; ">08:40 </div>
+
+                        <div class="box" id="horario4" style="cursor: pointer; ">09:00</div>
+
+                        <div class="box" id="horario5" style="cursor: pointer; ">09:20</div>
+
+                        <div class="box" id="horario6" style="cursor: pointer; ">09:40</div>
+
+                        <div class="box" id="horario7" style="cursor: pointer; ">10:00 </div>
+
+                        <div class="box" id="horario8" style="cursor: pointer; ">10:20 </div>
+
+                        <div class="box" id="horario9" style="cursor: pointer; "> 10:40 </div>
+
+                        <div class="box" id="horario10" style="cursor: pointer; ;">11:00 </div>
+
+                        <div class="box" id="horario11" style="cursor: pointer; ">11:20 </div>
+
+                        <div class="box" id="horario12" style="cursor: pointer; ">11:40 </div>
+
+                        <div class="box" id="horario13" style="cursor: pointer; ">12:00</div>
+
+                        <div class="box" id="horario14" style="cursor: pointer; ">12:20 </div>
+
+                        <div class="box" id="horario15" style="cursor: pointer; ">12:40 </div>
+
+                        <div class="box" id="horario16" style="cursor: pointer; ">13:00</div>
+
+                        <div class="box" id="horario17" style="cursor: pointer; ">13:20 </div>
+
+                        <div class="box" id="horario18" style="cursor: pointer; ">13:40 </div>
+
+                        <div class="box" id="horario19" style="cursor: pointer; ">14:00 </div>
+
+                        <div class="box" id="horario20" style="cursor: pointer;">14:20 </div>
+
+                        <div class="box" id="horario21" style="cursor: pointer; ">14:40 </div>
+
+                        <div class="box" id="horario22" style="cursor: pointer; ">15:00 </div>
+
+                        <div class="box" id="horario23" style="cursor: pointer; ">15:20 </div>
+
+                        <div class="box" id="horario24" style="cursor: pointer; ">15:40 </div>
+
+                        <div class="box" id="horario25" style="cursor: pointer; ">16:00 </div>
+
+                        <div class="box" id="horario26" style="cursor: pointer; ">16:20 </div>
+
+                        <div class="box" id="horario27" style="cursor: pointer; ;">16:40 </div>
+
+                        <div class="box" id="horario28" style="cursor: pointer;">17:00 </div>
+
+                        <div class="box" id="horario29" style="cursor: pointer; ">17:20 </div>
+
+                        <div class="box" id="horario30" style="cursor: pointer; ">17:40 </div>
+
+                        <div class="box" id="horario31" style="cursor: pointer; ">18:00 </div>
 
 
                     </div>
+
+                    <p class="sele_convenio">Convênios Aceitos</p>
+
+                    <select class="serv" id="conv3" name="conv" style="width: 80%; margin-bottom: 2rem;" required>
+                        <option hidden >Selecione o seu Convênio</option>
+                        <option value="bradesco">Bradesco</option>
+                        <option value="gama">Gama</option>
+                        <option value="santander">Santander</option>
+                    </select>
+
+                    <input class="botao" id="agenConsulta3" value="AGENDAR" style="font-size: 2.5rem; width: 16rem; padding: 1.5rem;">
+
                 </form>
 
             </div>
@@ -610,204 +705,6 @@
     </section>
 
     <!-- Fim da Seção agendamento 1 Pilates -->
-
-    <!-- Início da Seção agendamento 2 Pilates -->
-
-    <section class="agenda" id="agenda4" style="margin-top: 3rem; display: none;">
-        
-        <h1 class="cabecalho"> 2º Opção de <span>Médico</span> </h1>
-
-        <div class="row">
-
-            <div class="row" style=" margin-top: 2rem; width:70rem;">
-
-
-                <form action="">
-
-                    <span
-                        style="width: 30rem; margin-right: -2rem; font-size: 1.6rem; color: var(--black); text-transform: none; padding: 1rem;">
-                        <img src="img/doc-2.jpg" alt="" width="260rem">
-                        <h3 style="font-size: 2.5rem;">André Miranda Pontes</h3>
-                        <p class="medico_tipo" style="font-size: 2rem">Pilates</p>
-
-                    </span>
-
-                    <p style="font-size: 2rem; text-align: left; margin-top: 1rem;  margin-left: 2rem;">CRM: 123456</p>
-                    <p style="font-size: 2rem; text-align: left; margin-top: 1rem;  margin-left: 2rem;">RQE: 12345611
-                    </p>
-
-                    <p style="font-size: 3.5rem; text-align: center; margin-top: 3rem;">Formação</p>
-
-                    <p
-                        style="font-size: 2.6rem; text-align: left; margin-top: 1rem; color: var(--green); margin-left: 2rem;">
-                        Medicina
-                    </p>
-
-                    <p
-                        style="font-size: 2rem; text-align: left; margin-top: 0.5rem; color: rgb(90, 90, 90); margin-left: 2rem;">
-                        USP Universidade de São Paulo
-                    </p>
-
-                    <p
-                        style="font-size: 2.6rem; text-align: left; margin-top: 3.7rem; color: var(--green); margin-left: 2rem;">
-                        Residência Médica
-                    </p>
-
-                    <p
-                        style="font-size: 2rem; text-align: left; margin-top: 0.5rem; color: rgb(90, 90, 90); margin-left: 2rem;">
-                        SUS-SP
-                    </p>
-
-                </form>
-
-            </div>
-
-            <!-- Inicio Calendário-->
-
-            <div class="row" style=" margin-top: 2rem; width:70rem;">
-
-
-                <form action="">
-
-                    <h3 style="font-size: 3.7rem; text-align: center; margin-top: 1rem;">Agende a <span
-                            style="color:var(--green); ">Sua Consulta</span></h3>
-
-                    <select class="serv" name="teste" style="width: 8rem;  margin-bottom: 2rem;"
-                        onchange="javascript:mostraInfo(this);">
-                        <option value="01">01</option>
-                        <option value="02">02</option>
-                        <option value="03">03</option>
-                        <option value="04">04</option>
-                        <option value="05">05</option>
-                        <option value="06">06</option>
-                        <option value="07">07</option>
-                        <option value="08">08</option>
-                        <option value="09">09</option>
-                        <option value="10">10</option>
-                        <option value="11">11</option>
-                        <option value="12">12</option>
-                        <option value="01">13</option>
-                        <option value="02">14</option>
-                        <option value="03">15</option>
-                        <option value="04">16</option>
-                        <option value="05">17</option>
-                        <option value="06">18</option>
-                        <option value="07">19</option>
-                        <option value="08">20</option>
-                        <option value="09">21</option>
-                        <option value="10">22</option>
-                        <option value="11">23</option>
-                        <option value="12">24</option>
-                        <option value="10">25</option>
-                        <option value="11">26</option>
-                        <option value="12">27</option>
-                        <option value="10">28</option>
-                        <option value="11">29</option>
-                        <option value="12">30</option>
-                        <option value="12">31</option>
-                    </select>
-
-                    <select class="serv" name="teste" style="width: 15rem;  margin-bottom: 2rem;"
-                        onchange="javascript:mostraInfo(this);">
-                        <option value="01">Janeiro</option>
-                        <option value="02">Fevereiro</option>
-                        <option value="03">Março</option>
-                        <option value="04">Abril</option>
-                        <option value="05">Maio</option>
-                        <option value="06">Junho</option>
-                        <option value="07">Julho</option>
-                        <option value="08">Agosto</option>
-                        <option value="09" selected>Setembro</option>
-                        <option value="10">Outubro</option>
-                        <option value="11">Novembro</option>
-                        <option value="12">Dezembro</option>
-                    </select>
-
-                    <select class="serv" name="teste" style="width: 10rem; margin-bottom: 2rem;"
-                        onchange="javascript:mostraInfo(this);">
-                        <option value="2021">2021</option>
-                        <option value="2022">2022</option>
-
-
-                    </select>
-
-                    <div class="box-container">
-
-                        <div class="box">08:00</div>
-
-                        <div class="box">08:20</div>
-
-                        <div class="box">08:40 </div>
-
-                        <div class="box">09:00</div>
-
-                        <div class="box">09:20</div>
-
-                        <div class="box">09:40</div>
-
-                        <div class="box">10:00 </div>
-
-                        <div class="box">10:20 </div>
-
-                        <div class="box">10:40 </div>
-
-                        <div class="box">11:00 </div>
-
-                        <div class="box">11:20 </div>
-
-                        <div class="box">11:40 </div>
-
-                        <div class="box">12:00</div>
-
-                        <div class="box">12:20 </div>
-
-                        <div class="box">12:40 </div>
-
-                        <div class="box">13:00</div>
-
-                        <div class="box">13:20 </div>
-
-                        <div class="box">13:40 </div>
-
-                        <div class="box">14:00 </div>
-
-                        <div class="box">14:20 </div>
-
-                        <div class="box">14:40 </div>
-
-                        <div class="box">15:00 </div>
-
-                        <div class="box">15:20 </div>
-
-                        <div class="box">15:40 </div>
-
-                        <div class="box">16:00 </div>
-
-                        <div class="box">16:20 </div>
-
-                        <div class="box">16:40 </div>
-
-                        <div class="box">17:00 </div>
-
-                        <div class="box">17:20 </div>
-
-                        <div class="box">17:40 </div>
-
-                        <div class="box">18:00 </div>
-
-
-                    </div>
-                </form>
-
-            </div>
-
-            <!-- Fim Calendário-->
-
-        </div>
-
-    </section>
-
-    <!-- Fim da Seção agendamento 2 Pilates -->
 
     <!-- Início da seção rodapé -->
 

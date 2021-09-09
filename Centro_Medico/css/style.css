@@ -14,7 +14,6 @@
     margin:0; padding: 0;
     box-sizing: border-box;
     outline: none; border: none;
-    text-transform: capitalize;
     transition: all .2s ease-out;
     text-decoration: none;
 }
@@ -52,35 +51,23 @@ section:nth-child(even){
 .btn{
     display: inline-block;
     margin-top: 1rem;
-    padding: .5rem;
-    padding-left: 1rem;
-    border:var(--border);
+    padding: .9rem;
+    border: 2px solid rgb(185, 34, 34);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
-    color:var(--green);
+    color: rgb(185, 34, 34);
     cursor: pointer;
     font-size: 1.7rem;
     background: #fff;
 }
 
-.btn span{
-    padding:.7rem 1rem;
-    border-radius: .5rem;
-    background: var(--green);
-    color:#fff;
-    margin-left: .5rem;
-}
 
 .btn:hover{
-    background: var(--green);
+    background: rgb(185, 34, 34);
     color:#fff;
 }
 
-.btn:hover span{
-    color: var(--green);
-    background:#fff;
-    margin-left: 1rem;
-}
+
 
 .header{
     padding:2rem 9%;
@@ -193,7 +180,7 @@ section:nth-child(even){
 
 .services .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 30rem));
     gap:2rem;
 }
 
@@ -205,16 +192,9 @@ section:nth-child(even){
     padding: 2.5rem;
 }
 
-.services .box-container .box i{
-    color: var(--green);
-    font-size: 5rem;
-    padding-bottom: .5rem;
-}
-
 .services .box-container .box h3{
     color: var(--black);
     font-size: 2.5rem;
-    padding:1rem 0;
 }
 
 .services .box-container .box p{
