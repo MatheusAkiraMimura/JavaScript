@@ -292,13 +292,13 @@ section:nth-child(even) {
     padding-bottom: .5rem;
 }
 
-.agenda .box-container {
+.agenda .horario-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
     gap:2rem;
 }
 
-.agenda .box-container .horario1 {
+.agenda .horario-container .horario {
     background:#fff;
     border-radius: .5rem;
     border: 2px solid black;
@@ -307,7 +307,7 @@ section:nth-child(even) {
     
 }
 
-.agenda .box-container .box:hover {
+.agenda .horario-container .horario:hover {
     background:var(--green); 
     color: #fff;
     border-radius: .5rem;
@@ -316,19 +316,21 @@ section:nth-child(even) {
     
 }
 
-.agenda .box-container2 {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
-    gap:2rem;
-}
-
-.agenda .box-container2 .horario1 {
-    background:#fff;
+.agenda .horario-container .horario:active {
+    background:var(--green); 
+    color: #fff;
     border-radius: .5rem;
     border: 2px solid black;
-    padding: 1rem;
     text-align: center;
     
+}
+
+.selecionado:active {
+    background:var(--green); 
+    color: #fff;
+    border-radius: .5rem;
+    border: 2px solid black;
+    text-align: center;
 }
 
 
@@ -490,7 +492,7 @@ section:nth-child(even) {
 }
 
 .cadastro .row form .box,
-.agenda .row form .box {
+.agenda .row form .horario {
     width: 100%;
     margin:.7rem 0;
     border-radius: .5rem;
