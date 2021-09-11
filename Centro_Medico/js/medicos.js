@@ -14,7 +14,7 @@ window.onscroll = () => {
 const servicos = document.getElementById('servicos');
 const aparecer = document.getElementById('aparecer');
 const confirmar = document.getElementById('confirmar');
-const dia = document.getElementById('dia');
+
 
 const agenda1 = document.getElementById('agenda1');
 const agenda2 = document.getElementById('agenda2');
@@ -23,6 +23,19 @@ const agenda4 = document.getElementById('agenda4');
 const agenda5 = document.getElementById('agenda5');
 const agenda6 = document.getElementById('agenda6');
 
+const agendaDados1 = document.getElementById('agenda_dados1');
+const agendaDados2 = document.getElementById('agenda_dados2');
+const agendaDados3 = document.getElementById('agenda_dados3');
+const agendaDados4 = document.getElementById('agenda_dados4');
+const agendaDados5 = document.getElementById('agenda_dados5');
+const agendaDados6 = document.getElementById('agenda_dados6');
+
+const mostrarAgendaDados1 = document.getElementById('mostrar_agenda_dados1');
+const mostrarAgendaDados2 = document.getElementById('mostrar_agenda_dados2');
+const mostrarAgendaDados3 = document.getElementById('mostrar_agenda_dados3');
+const mostrarAgendaDados4 = document.getElementById('mostrar_agenda_dados4');
+const mostrarAgendaDados5 = document.getElementById('mostrar_agenda_dados5');
+const mostrarAgendaDados6 = document.getElementById('mostrar_agenda_dados6');
 
 const agenConsulta1 = document.getElementById('agenConsulta1')
 const agenConsulta2 = document.getElementById('agenConsulta2')
@@ -62,30 +75,136 @@ for (var i = 0; i < divs.length; i++) {
 
 function mostraInfo(elemento) {
     if (elemento.value == 1) {
+        agenda2.style = 'display:none;'
         agenda3.style = 'display:none;'
-        agenda4.style = 'display:none;'
 
         agenda1.style = 'display:block;'
-        agenda2.style = 'display:block;'
+
+        agendaDados1.style = 'display:none;'
+        agendaDados2.style = 'display:none;'
+        agendaDados3.style = 'display:none;'
+        agendaDados4.style = 'display:none;'
+        agendaDados5.style = 'display:none;'
+        agendaDados6.style = 'display:none;'
+
+        window.scrollBy(0, 300)
 
     } else if (elemento.value == 2) {
 
         agenda1.style = 'display:none;'
-        agenda2.style = 'display:none;'
+        agenda3.style = 'display:none;'
 
-        agenda3.style = 'display:block;'
-        agenda4.style = 'display:block;'
+        agenda2.style = 'display:block;'
+
+        agendaDados1.style = 'display:none;'
+        agendaDados2.style = 'display:none;'
+        agendaDados3.style = 'display:none;'
+        agendaDados4.style = 'display:none;'
+        agendaDados5.style = 'display:none;'
+        agendaDados6.style = 'display:none;'
+
+        window.scrollBy(0, 300)
 
 
     } else if (elemento.value == 3) {
         agenda1.style = 'display:none;'
         agenda2.style = 'display:none;'
-        agenda3.style = 'display:none;'
-        agenda4.style = 'display:none;'
 
-        agenda5.style = 'display:block;'
-        agenda6.style = 'display:block;'
+        agenda3.style = 'display:block;'
+
+        agendaDados1.style = 'display:none;'
+        agendaDados2.style = 'display:none;'
+        agendaDados3.style = 'display:none;'
+        agendaDados4.style = 'display:none;'
+        agendaDados5.style = 'display:none;'
+        agendaDados6.style = 'display:none;'
+
+        window.scrollBy(0, 300)
     }
+
+}
+
+/* Mostrar agenda Médico 1 Ortopedia */
+function mostrarAgendaDados1On () {
+    agendaDados2.style ='display:none;'
+
+    agendaDados1.style ='display:block;'
+
+    mostrarAgendaDados2.style = 'background: #fff;'
+
+    mostrarAgendaDados1.style = 'background: rgb(168, 255, 233);'
+
+    window.scrollBy(0, 550)
+
+}
+
+/* Mostrar agenda Médico 2 Ortopedia */
+function mostrarAgendaDados2On () {
+    agendaDados1.style ='display:none;'
+
+    agendaDados2.style ='display:block;'
+
+    mostrarAgendaDados1.style = 'background: #fff;'
+
+    mostrarAgendaDados2.style = 'background: rgb(168, 255, 233);'
+
+    window.scrollBy(0, 400) 
+
+}
+
+/* Mostrar agenda Médico 1 Pilates */
+function mostrarAgendaDados3On () {
+    agendaDados4.style ='display:none;'
+
+    agendaDados3.style ='display:block;'
+
+    mostrarAgendaDados4.style = 'background: #fff;'
+
+    mostrarAgendaDados3.style = 'background: rgb(168, 255, 233);'
+
+    window.scrollBy(0, 550)
+
+}
+
+/* Mostrar agenda Médico 2 Pilates */
+function mostrarAgendaDados4On () {
+    agendaDados3.style ='display:none;'
+
+    agendaDados4.style ='display:block;'
+
+    mostrarAgendaDados3.style = 'background: #fff;'
+
+    mostrarAgendaDados4.style = 'background: rgb(168, 255, 233);'
+
+    window.scrollBy(0, 400) 
+
+}
+
+/* Mostrar agenda Médico 1 RPG */
+function mostrarAgendaDados5On () {
+    agendaDados6.style ='display:none;'
+
+    agendaDados5.style ='display:block;'
+
+    mostrarAgendaDados6.style = 'background: #fff;'
+
+    mostrarAgendaDados5.style = 'background: rgb(168, 255, 233);'
+
+    window.scrollBy(0, 550)
+
+}
+
+/* Mostrar agenda Médico 2 RPG */
+function mostrarAgendaDados6On () {
+    agendaDados5.style ='display:none;'
+
+    agendaDados6.style ='display:block;'
+
+    mostrarAgendaDados5.style = 'background: #fff;'
+
+    mostrarAgendaDados6.style = 'background: rgb(168, 255, 233);'
+
+    window.scrollBy(0, 400) 
 
 }
 
@@ -145,7 +264,13 @@ function agenConsulta1On() {
         agenda1.style = 'display:none;'
         agenda2.style = 'display:none;'
         agenda3.style = 'display:none;'
-        agenda4.style = 'display:none;'
+
+        agendaDados1.style = 'display:none;'
+        agendaDados2.style = 'display:none;'
+        agendaDados3.style = 'display:none;'
+        agendaDados4.style = 'display:none;'
+        agendaDados5.style = 'display:none;'
+        agendaDados6.style = 'display:none;'
         
 
         const tipo = document.getElementById('tipo');
@@ -228,9 +353,13 @@ function agenConsulta2On() {
         agenda1.style = 'display:none;'
         agenda2.style = 'display:none;'
         agenda3.style = 'display:none;'
-        agenda4.style = 'display:none;'
-        agenda5.style = 'display:none;'
-        agenda6.style = 'display:none;'
+
+        agendaDados1.style = 'display:none;'
+        agendaDados2.style = 'display:none;'
+        agendaDados3.style = 'display:none;'
+        agendaDados4.style = 'display:none;'
+        agendaDados5.style = 'display:none;'
+        agendaDados6.style = 'display:none;'
 
         const tipo = document.getElementById('tipo');
         const tipo_nome = document.getElementById('tipo_nome');
@@ -312,9 +441,13 @@ function agenConsulta3On() {
         agenda1.style = 'display:none;'
         agenda2.style = 'display:none;'
         agenda3.style = 'display:none;'
-        agenda4.style = 'display:none;'
-        agenda5.style = 'display:none;'
-        agenda6.style = 'display:none;'
+
+        agendaDados1.style = 'display:none;'
+        agendaDados2.style = 'display:none;'
+        agendaDados3.style = 'display:none;'
+        agendaDados4.style = 'display:none;'
+        agendaDados5.style = 'display:none;'
+        agendaDados6.style = 'display:none;'
 
         const tipo = document.getElementById('tipo');
         const tipo_nome = document.getElementById('tipo_nome');
@@ -396,9 +529,13 @@ function agenConsulta4On() {
         agenda1.style = 'display:none;'
         agenda2.style = 'display:none;'
         agenda3.style = 'display:none;'
-        agenda4.style = 'display:none;'
-        agenda5.style = 'display:none;'
-        agenda6.style = 'display:none;'
+
+        agendaDados1.style = 'display:none;'
+        agendaDados2.style = 'display:none;'
+        agendaDados3.style = 'display:none;'
+        agendaDados4.style = 'display:none;'
+        agendaDados5.style = 'display:none;'
+        agendaDados6.style = 'display:none;'
 
         const tipo = document.getElementById('tipo');
         const tipo_nome = document.getElementById('tipo_nome');
@@ -480,9 +617,13 @@ function agenConsulta5On() {
         agenda1.style = 'display:none;'
         agenda2.style = 'display:none;'
         agenda3.style = 'display:none;'
-        agenda4.style = 'display:none;'
-        agenda5.style = 'display:none;'
-        agenda6.style = 'display:none;'
+
+        agendaDados1.style = 'display:none;'
+        agendaDados2.style = 'display:none;'
+        agendaDados3.style = 'display:none;'
+        agendaDados4.style = 'display:none;'
+        agendaDados5.style = 'display:none;'
+        agendaDados6.style = 'display:none;'
 
         const tipo = document.getElementById('tipo');
         const tipo_nome = document.getElementById('tipo_nome');
@@ -564,9 +705,13 @@ function agenConsulta6On() {
         agenda1.style = 'display:none;'
         agenda2.style = 'display:none;'
         agenda3.style = 'display:none;'
-        agenda4.style = 'display:none;'
-        agenda5.style = 'display:none;'
-        agenda6.style = 'display:none;'
+
+        agendaDados1.style = 'display:none;'
+        agendaDados2.style = 'display:none;'
+        agendaDados3.style = 'display:none;'
+        agendaDados4.style = 'display:none;'
+        agendaDados5.style = 'display:none;'
+        agendaDados6.style = 'display:none;'
 
         const tipo = document.getElementById('tipo');
         const tipo_nome = document.getElementById('tipo_nome');
@@ -592,6 +737,12 @@ function agenConsulta6On() {
     }
 }
 
+mostrarAgendaDados1.addEventListener('click', mostrarAgendaDados1On);
+mostrarAgendaDados2.addEventListener('click', mostrarAgendaDados2On);
+mostrarAgendaDados3.addEventListener('click', mostrarAgendaDados3On);
+mostrarAgendaDados4.addEventListener('click', mostrarAgendaDados4On);
+mostrarAgendaDados5.addEventListener('click', mostrarAgendaDados5On);
+mostrarAgendaDados6.addEventListener('click', mostrarAgendaDados6On);
 
 agenConsulta1.addEventListener('click', agenConsulta1On);
 agenConsulta2.addEventListener('click', agenConsulta2On);

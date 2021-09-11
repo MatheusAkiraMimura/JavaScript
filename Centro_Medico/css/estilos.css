@@ -472,6 +472,13 @@ section:nth-child(even) {
     gap:1rem;
 }
 
+
+.medicos .row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    gap:2rem;
+}
+
 .cadastro .row form,
 .agenda .row form {
     margin: 0 auto;
@@ -484,15 +491,28 @@ section:nth-child(even) {
     border-radius: .5rem;
 }
 
+.medicos .row form {
+    margin: 0 auto;
+    flex: 1 1 10rem;
+    border:var(--border);
+    box-shadow: var(--box-shadow);
+    text-align: center;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+
 .cadastro .row form h3,
-.agenda .row form h3 {
+.agenda .row form h3,
+.medicos .row form h3 {
     color:var(--black);
     padding-bottom: 1rem;
     font-size: 3rem;
 }
 
 .cadastro .row form .box,
-.agenda .row form .horario {
+.agenda .row form .horario,
+.medicos .row form .horario {
     width: 100%;
     margin:.7rem 0;
     border-radius: .5rem;
@@ -652,6 +672,15 @@ section:nth-child(even) {
     width:70rem;
 }
 
+.medico_ativado {
+    cursor: pointer;
+    background: #fff;
+}
+
+.medico_ativado:hover {
+    cursor: pointer;
+    background: rgb(168, 255, 233);
+}
 
 
 
