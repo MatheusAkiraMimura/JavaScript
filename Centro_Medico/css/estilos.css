@@ -295,7 +295,7 @@ section:nth-child(even) {
 .agenda .horario-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
-    gap:2rem;
+    gap:1rem;
 }
 
 .agenda .horario-container .horario {

@@ -52,13 +52,13 @@ var divs = document.getElementsByClassName("horario");
 for (var i = 0; i < divs.length; i++) {
   divs[i].addEventListener("click", function() {
     var selecionado = document.getElementsByClassName("selecionado");
-    var seleciona = document.getElementById("seleciona")
+    var seleciona = document.getElementById("seleciona");
 
     // Se não houver div selecionada
     if (selecionado.length > 0) {
       selecionado[0].className = selecionado[0].className.replace(" selecionado", "");
-      seleciona.id = "vazio"
-      seleciona.style = ""
+      seleciona.id = "vazio";
+      seleciona.style = "";
     }
 
     // Adiciona a classe selecionado na div atual / clicada
@@ -66,8 +66,8 @@ for (var i = 0; i < divs.length; i++) {
 
     this.id = "seleciona";
 
-    var seleciona = document.getElementById("seleciona")
-    seleciona.style = "background:var(--green); color: #fff;border-radius: .5rem;border: 2px solid black;text-align: center;"
+    var seleciona = document.getElementById("seleciona");
+    seleciona.style = "background:var(--green); color: #fff;border-radius: .5rem;border: 2px solid black;text-align: center;";
   
   });
 }
